@@ -1,0 +1,42 @@
+[project]
+name = "pmc-miner"
+version = "0.2.0"
+description = "Mine full-text papers, tables, figures, and supplementary files from PMC Central"
+authors = [{name = "Yaochen Rao", email = "yaochenr@chalmers.se"}]
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=4.9.0",
+    "xmltodict>=0.13.0",
+    "python-dateutil>=2.8.0",
+]
+
+[project.scripts]
+pmc-miner = "pmc_miner.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pmc_miner"]
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+pmc-miner = { path = ".", editable = true }
+
+[tool.pixi.dependencies]
+python = ">=3.9"
+requests = ">=2.31.0"
+beautifulsoup4 = ">=4.12.0"
+lxml = ">=4.9.0"
+xmltodict = ">=0.13.0"
+python-dateutil = ">=2.8.0"
+ipykernel = ">=6.29.5,<7"
+pandas = ">=2.3.0,<3"
+matplotlib = ">=3.10.6,<4"
+seaborn = ">=0.13.2,<0.14"
