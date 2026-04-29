@@ -22,24 +22,44 @@ class PMCImageDownloader:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
         })
+        self._last_page_was_stub = False
 
     def get_pmc_html_url(self, pmcid: str) -> str:
         clean_id = pmcid.replace('PMC', '')
-        return f"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC{clean_id}/"
+        return f"https://pmc.ncbi.nlm.nih.gov/articles/PMC{clean_id}/"
+
+    def _fetch_article_html(self, url: str, max_attempts: int = 3) -> bytes:
+        last_err = None
+        for attempt in range(1, max_attempts + 1):
+            try:
+                response = self.session.get(url, timeout=30)
+                response.raise_for_status()
+                if b'<img ' in response.content:
+                    return response.content
+                logging.warning(f"Attempt {attempt}/{max_attempts} returned page with no <img> tags: {url}")
+            except Exception as e:
+                last_err = e
+                logging.warning(f"Attempt {attempt}/{max_attempts} failed for {url}: {e}")
+            if attempt < max_attempts:
+                time.sleep(2 * attempt)
+        if last_err:
+            raise last_err
+        return response.content
 
     def scrape_figure_images(self, pmcid: str) -> List[Dict[str, str]]:
+        self._last_page_was_stub = False
         try:
             url = self.get_pmc_html_url(pmcid)
             logging.info(f"Scraping images from: {url}")
 
-            response = self.session.get(url, timeout=30)
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.content, 'html.parser')
+            html_bytes = self._fetch_article_html(url)
+            soup = BeautifulSoup(html_bytes, 'html.parser')
             figures = []
 
             img_tags = soup.find_all('img', src=True)
             logging.info(f"Found {len(img_tags)} total img tags")
+            if len(img_tags) == 0:
+                self._last_page_was_stub = True
 
             for img in img_tags:
                 src = img.get('src', '')
@@ -94,13 +114,28 @@ class PMCImageDownloader:
 
         except Exception as e:
             logging.error(f"Failed to scrape images for {pmcid}: {e}")
+            self._last_page_was_stub = True
             return []
+
+    def _mark_for_retry(self, pmcid: str) -> None:
+        clean_id = pmcid.replace('PMC', '')
+        retry_path = self.storage.data_dir / "images_retry.txt"
+        try:
+            existing = set()
+            if retry_path.exists():
+                existing = {ln.strip() for ln in retry_path.read_text().splitlines() if ln.strip()}
+            existing.add(f"PMC{clean_id}")
+            retry_path.write_text("\n".join(sorted(existing)) + "\n")
+        except Exception as e:
+            logging.warning(f"Could not write images_retry.txt: {e}")
 
     def download_paper_images(self, pmcid: str) -> bool:
         try:
             figures = self.scrape_figure_images(pmcid)
             if not figures:
                 logging.info(f"No figures found for PMC{pmcid}")
+                if self._last_page_was_stub:
+                    self._mark_for_retry(pmcid)
                 return True
 
             paper_dir = self.storage.get_paper_dir(pmcid)
