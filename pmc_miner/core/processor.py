@@ -143,25 +143,71 @@ class TextProcessor:
         if not body_tag:
             body_tag = soup.find('article') or soup
 
-        full_text = ""
-        sections = {}
+        sections: Dict[str, str] = {}
+        full_text_parts: List[str] = []
+        floating_paragraphs: List[str] = []
 
-        top_level_sections = body_tag.find_all('sec', recursive=False)
+        def flush_floating():
+            if not floating_paragraphs:
+                return
+            body_text = '\n\n'.join(floating_paragraphs)
+            base = 'Main Text'
+            title = base
+            idx = 2
+            while title in sections:
+                title = f"{base} ({idx})"
+                idx += 1
+            sections[title] = body_text
+            full_text_parts.append(f"{title}\n{body_text}")
+            floating_paragraphs.clear()
 
-        if not top_level_sections:
-            top_level_sections = body_tag.find_all(['section', 'div'], class_=lambda x: x and 'section' in str(x).lower(), recursive=False)
+        skip_block_tags = {'fig', 'table-wrap', 'supplementary-material',
+                           'graphic', 'media', 'inline-graphic'}
 
-        if not top_level_sections:
-            paragraphs = body_tag.find_all('p')
-            full_text = '\n\n'.join([self._clean_text(self._extract_text_with_format(p)) for p in paragraphs])
-        else:
-            for section in top_level_sections:
-                section_content = self._extract_section_content_recursive(section)
+        for child in body_tag.children:
+            if not hasattr(child, 'name') or not child.name:
+                continue
+
+            if child.name in ('sec', 'section'):
+                flush_floating()
+                section_content = self._extract_section_content_recursive(child)
                 if section_content:
                     section_title, section_text = section_content
-                    sections[section_title] = section_text
-                    full_text += f"\n\n{section_title}\n{section_text}"
+                    base = section_title or "Unknown Section"
+                    title = base
+                    idx = 2
+                    while title in sections:
+                        title = f"{base} ({idx})"
+                        idx += 1
+                    sections[title] = section_text
+                    full_text_parts.append(f"{title}\n{section_text}")
+            elif child.name == 'p':
+                text = self._clean_text(self._extract_text_with_format(child))
+                if text:
+                    floating_paragraphs.append(text)
+            elif child.name == 'list':
+                items = []
+                for li in child.find_all('list-item'):
+                    item_text = self._clean_text(self._extract_text_with_format(li))
+                    if item_text:
+                        items.append(f"- {item_text}")
+                if items:
+                    floating_paragraphs.append('\n'.join(items))
+            elif child.name in skip_block_tags:
+                continue
+            else:
+                text = self._clean_text(self._extract_text_with_format(child))
+                if text:
+                    floating_paragraphs.append(text)
 
+        flush_floating()
+
+        # 极端情况:<body> 里完全没有 <sec> 也没有直接 <p> 子节点,则用递归 <p> 兜底。
+        if not sections and not full_text_parts:
+            paragraphs = body_tag.find_all('p')
+            full_text_parts = [self._clean_text(self._extract_text_with_format(p)) for p in paragraphs]
+
+        full_text = '\n\n'.join(full_text_parts)
         return self._clean_text(full_text), sections
 
     def _extract_section_content_recursive(self, section_element) -> Optional[Tuple[str, str]]:
