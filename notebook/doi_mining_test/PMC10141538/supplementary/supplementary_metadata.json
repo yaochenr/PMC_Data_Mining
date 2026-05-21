@@ -1,0 +1,21 @@
+{
+  "pmcid": "PMC10141538",
+  "has_supplements": true,
+  "footnote_references": [],
+  "external_links": [],
+  "download_status": "starting",
+  "download_date": "2026-05-21 18:56:43",
+  "total_files": 1,
+  "total_size_bytes": 3050648,
+  "files": [
+    {
+      "id": "metabolites-13-00576-s001",
+      "filename": "metabolites-13-00576-s001.zip",
+      "caption": "metabolites-13-00576-s001.zip",
+      "file_type": "zip",
+      "size_bytes": 3050648,
+      "local_path": "/Users/yaochenr/project/pmc_data_mining/notebook/doi_mining_test/PMC10141538/supplementary_extraction/metabolites-13-00576-s001.zip",
+      "content_summary": ".zip file (2979.1 KB)"
+    }
+  ]
+}

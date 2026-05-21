@@ -1,0 +1,58 @@
+[
+  {
+    "id": "metabolites-13-00576-f001",
+    "caption": "Molecular structures of the studied synthetic cannabinoids.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/metabolites-13-00576-f001_metabolites-13-00576-g001.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f002",
+    "caption": "Mass spectrometry spectra and fragmentation of A1 (the monohydroxylated metabolite of ADB-BUTINACA, the wavy bonds position unassigned).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g002.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/metabolites-13-00576-f002_metabolites-13-00576-g002.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f003",
+    "caption": "Proposed metabolic pathway of ADB-BUTINACA.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/metabolites-13-00576-f003_metabolites-13-00576-g003.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f004",
+    "caption": "Proposed metabolic pathway of MDMB-4en-PINACA.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g004.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/metabolites-13-00576-f004_metabolites-13-00576-g004.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f005",
+    "caption": "Proposed metabolic pathway of BZO-HEXOXIZID.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g005.jpg",
+    "alt_text": "Figure 5",
+    "local_image_path": "images/metabolites-13-00576-f005_metabolites-13-00576-g005.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f006",
+    "caption": "Proposed metabolic pathway of BZO-POXIZID.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g006.jpg",
+    "alt_text": "Figure 6",
+    "local_image_path": "images/metabolites-13-00576-f006_metabolites-13-00576-g006.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f007",
+    "caption": "Proposed metabolic pathway of BZO-4en-POXIZID.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g007.jpg",
+    "alt_text": "Figure 7",
+    "local_image_path": "images/metabolites-13-00576-f007_metabolites-13-00576-g007.jpg"
+  },
+  {
+    "id": "metabolites-13-00576-f008",
+    "caption": "Proposed metabolic pathway of 5-fluoro BZO-POXIZID.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10141538.1/metabolites-13-00576-g008.jpg",
+    "alt_text": "Figure 8",
+    "local_image_path": "images/metabolites-13-00576-f008_metabolites-13-00576-g008.jpg"
+  }
+]

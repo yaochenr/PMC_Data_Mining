@@ -1,0 +1,51 @@
+[
+  {
+    "id": "molecules-24-00071-f001",
+    "caption": "Proposed fragmentation pathways of complanatuside ( A ), RNG ( B ), and RNC ( C ). Abbreviation notes: RNG: rhamnocitrin 3- O -β-glc; RNC: rhamnocitrin.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/molecules-24-00071-f001_molecules-24-00071-g001.jpg"
+  },
+  {
+    "id": "molecules-24-00071-f002",
+    "caption": "Total ion chromatograms of complanatuside in rat samples; ( A1 ) blank plasma, ( A2 ) plasma sample after oral administration; ( B1 ) blank bile, ( B2 ) bile sample after oral administration; ( C1 ) blank stool, ( C2 ) stool sample after oral administration; ( D1 ) blank urine, ( D2 ) urine sample after oral administration.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g002a.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/molecules-24-00071-f002_molecules-24-00071-g002a.jpg"
+  },
+  {
+    "id": "molecules-24-00071-g002b",
+    "caption": "",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g002b.jpg",
+    "alt_text": "",
+    "local_image_path": "images/molecules-24-00071-g002b_molecules-24-00071-g002b.jpg"
+  },
+  {
+    "id": "molecules-24-00071-f003",
+    "caption": "Proposed metabolic pathways of complanatuside.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/molecules-24-00071-f003_molecules-24-00071-g003.jpg"
+  },
+  {
+    "id": "molecules-24-00071-f004",
+    "caption": "Representative multiple reaction monitoring (MRM) chromatograms of analytes in blank plasma samples ( A ); blank plasma samples spiked with the internal standard ( B ); the real plasma samples ( C ). (1) Complanatuside, (2) rhamnocitrin 3- O -β-glc, (3) rhamnocitrin, and (IS) quercetin. ESI: electro-spray ionization; IS:internal standard.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g004.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/molecules-24-00071-f004_molecules-24-00071-g004.jpg"
+  },
+  {
+    "id": "molecules-24-00071-f005",
+    "caption": "Time-concentration curves of CPS, RNG, and RNC in plasma from rats after oral administration of complanatuside. CPS: complanatuside; RNG: rhamnocitrin 3- O -β-glc; RNC: rhamnocitrin.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g005.jpg",
+    "alt_text": "Figure 5",
+    "local_image_path": "images/molecules-24-00071-f005_molecules-24-00071-g005.jpg"
+  },
+  {
+    "id": "molecules-24-00071-f006",
+    "caption": "Chemical structures of complanatuside ( A ), rhamnocitrin 3- O -β-glc ( B ), rhamnocitrin ( C ), and quercetin ( D , IS).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6337141.1/molecules-24-00071-g006.jpg",
+    "alt_text": "Figure 6",
+    "local_image_path": "images/molecules-24-00071-f006_molecules-24-00071-g006.jpg"
+  }
+]

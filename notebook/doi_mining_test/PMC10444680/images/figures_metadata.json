@@ -1,0 +1,65 @@
+[
+  {
+    "id": "Fig1",
+    "caption": "MS/MS spectra observed for 2-MMC ( a , RT 16.4 min), 3-MMC ( b , RT 16.5 min), and 4-MMC ( c , RT 16.5 min) using a collision energy of 17.0 eV and indicating the proposed structures of the obtained product ions. Abbreviations: MMC, methylmethcathinone",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig1_HTML.jpg",
+    "alt_text": "Fig. 1",
+    "local_image_path": "images/Fig1_216_2023_4815_Fig1_HTML.jpg"
+  },
+  {
+    "id": "Fig2",
+    "caption": "Proposed metabolic pathways of 2-MMC obtained with liver microsomal incubations. The metabolite numbers correspond to the identified metabolites listed in Table 1 . Abbreviations: MMC, methylmethcathinone; pMRLM, pooled male rat liver microsomes; pFRLM, pooled female rat liver microsomes; pMHLM, pooled male human liver microsomes; pFHLM, pooled female human liver microsomes",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig2_HTML.jpg",
+    "alt_text": "Fig. 2",
+    "local_image_path": "images/Fig2_216_2023_4815_Fig2_HTML.jpg"
+  },
+  {
+    "id": "Fig3",
+    "caption": "Proposed metabolic pathways of 3-MMC obtained with pooled liver microsomal incubations. The metabolite numbers correspond to the identified metabolites listed in Table 1 . Abbreviations: MMC, methylmethcathinone; pMRLM, pooled male rat liver microsomes; pFRLM, pooled female rat liver microsomes; pMHLM, pooled male human liver microsomes; pFHLM, pooled female human liver microsomes",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig3_HTML.jpg",
+    "alt_text": "Fig. 3",
+    "local_image_path": "images/Fig3_216_2023_4815_Fig3_HTML.jpg"
+  },
+  {
+    "id": "Fig4",
+    "caption": "Proposed metabolic pathways of 4-MMC obtained with liver microsomal incubations. The metabolite numbers correspond to the identified metabolites listed in Table 1 . Abbreviations: MMC, methylmethcathinone; pMRLM, pooled male rat liver microsomes; pFRLM, pooled female rat liver microsomes; pMHLM, pooled male human liver microsomes; pFHLM, pooled female human liver microsomes",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig4_HTML.jpg",
+    "alt_text": "Fig. 4",
+    "local_image_path": "images/Fig4_216_2023_4815_Fig4_HTML.jpg"
+  },
+  {
+    "id": "Fig5",
+    "caption": "Extracted ion chromatograms (EICs) obtained for monohydroxylated metabolites in pooled male rat liver microsomal incubations. ( a ) Product ion mass spectrum observed for 3-OH-MMC. ( b ) Product ion mass spectrum observed for 4-OH-MMC. The metabolite numbers correspond to the identified metabolites listed in Table 1 . The retention times observed for 3-OH-MMC (8.7 min) and 4-OH-MMC (6.5 min) were significantly different. No hydroxylated metabolite was observed for 2-MMC",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig5_HTML.jpg",
+    "alt_text": "Fig. 5",
+    "local_image_path": "images/Fig5_216_2023_4815_Fig5_HTML.jpg"
+  },
+  {
+    "id": "Fig6",
+    "caption": "Comparisons of the extracted ion chromatograms (EICs) obtained for the metabolites of 3-MMC in pooled male human liver microsomal (pMHLM) and pooled male rat liver microsomal (pMRLM) incubations. ( a ) EICs of 3-MMC, M8 , M10 , and M11 , which were observed in pMHLM incubations. ( b ) EICs of 3-MMC and M7 – M17 , which were generated from pMRLM incubations. ( c ) EICs of the less abundant metabolites generated from pMRLM incubations",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig6_HTML.jpg",
+    "alt_text": "Fig. 6",
+    "local_image_path": "images/Fig6_216_2023_4815_Fig6_HTML.jpg"
+  },
+  {
+    "id": "Fig7",
+    "caption": "Comparisons of extracted ion chromatograms (EICs) of the discriminative metabolites M7 , M14 , and M16 of 3-MMC measured in pooled male rat liver microsomal (pMRLM) incubations (black EIC traces) which were not detected in pooled female rat liver microsomal (pFRLM) incubations (blue EIC traces). The metabolite numbers correspond to the identified metabolites listed in Table 1",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig7_HTML.jpg",
+    "alt_text": "Fig. 7",
+    "local_image_path": "images/Fig7_216_2023_4815_Fig7_HTML.jpg"
+  },
+  {
+    "id": "Fig8",
+    "caption": "Comparison of the relative abundance observed for the tentatively identified metabolites of MMCs between pFRLM (light blue bars with lined pattern) and pMRLM (orange bars with crossed pattern) incubations. The relative abundance (%) is expressed as the average of the peak area of each metabolite or parent compound ( n = 2) divided by the average of the peak areas measured for the parent compound in negative controls ( n = 2) and multiplied by 100. The metabolite numbers correspond to the identif",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Fig8_HTML.jpg",
+    "alt_text": "Fig. 8",
+    "local_image_path": "images/Fig8_216_2023_4815_Fig8_HTML.jpg"
+  },
+  {
+    "id": "MO1",
+    "caption": "Graphical Abstract",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10444680.1/216_2023_4815_Figa_HTML.jpg",
+    "alt_text": "Graphical Abstract",
+    "local_image_path": "images/MO1_216_2023_4815_Figa_HTML.jpg"
+  }
+]

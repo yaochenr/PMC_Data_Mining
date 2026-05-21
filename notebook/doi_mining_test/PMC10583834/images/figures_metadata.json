@@ -1,0 +1,79 @@
+[
+  {
+    "id": "fig1",
+    "caption": "Proposed metabolic scheme of NVP with the associated CYP-metabolizing\nenzymes.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/fig1_tx3c00192_0001.jpg"
+  },
+  {
+    "id": "fig2",
+    "caption": "Dose–response\ncurves of NVP, 2-nitro-NVP, 12-d 3 -NVP, and 3-bromo-NVP\nagainst HIV reverse transcriptase. HIV-RT inhibition\nby NVP (A), 2-nitro-NVP (B), 12-d 3 -NVP (C), and 3-bromo-NVP\n(D) was characterized by the following IC 50 value ±\nstandard error (with respective coefficient of determination, R 2 , in parentheses): 0.540 ± 0.055 μM\n( R 2 = 0.972), 0.721 ± 0.111 μM\n( R 2 = 0.937), 0.910 ± 0.042 μM\n( R 2 = 0.989), and 2.78 ± 0.38 μM\n( R 2 = 0.977), respectively. Each data\npoint represents t",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0002.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/fig2_tx3c00192_0002.jpg"
+  },
+  {
+    "id": "fig3",
+    "caption": "Induction effects of NVP and its analogs on CYP3A4 gene\nexpression\nand activity in primary human hepatocytes. Fold change of CYP3A4 mRNA\n(A) and midazolam 1′-hydroxylation activity (B) in pooled primary\nhuman hepatocytes dosed for 72 h with 25 μM and 100 μM\nNVP, 2-nitro-NVP, 12-d 3 -NVP, or 3-bromo-NVP. DMSO and rifampicin\n(10 μM) treatments were used for solvent control and positive\ncontrol for induction, respectively. Bars represent the means of at\nleast four biological replicates ± standard d",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/fig3_tx3c00192_0003.jpg"
+  },
+  {
+    "id": "fig4",
+    "caption": "Induction effects of NVP and its analogs on CYP2B6 gene\nexpression\nin primary human hepatocytes. Fold change of CYP2B6 mRNA in pooled\nprimary human hepatocytes dosed for 72 h with 25 and 100 μM\nNVP, 2-nitro-NVP, 12-d 3 -NVP, or 3-bromo-NVP. DMSO and rifampicin\n(10 μM) treatments were used for solvent control and positive\ncontrol for induction, respectively. Bars represent the means of at\nleast four biological replicates ± standard deviations. Data\nwere analyzed by one-way ANOVA against the DMSO ",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0004.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/fig4_tx3c00192_0004.jpg"
+  },
+  {
+    "id": "fig5",
+    "caption": "NVP and 12-d 3 -NVP time- and metabolism-dependent inhibition\nof recombinant CYP3A4. Inhibition of CYP3A4-mediated midazolam 1′-hydroxylation\nby NVP (A) and the 12-d 3 -NVP analog (B) was assessed using\nthe IC 50 shift assay with the nondilution method. Percent\nof control was determined for increasing drug concentrations and after\n0 and 30 min preincubation with and without the NADPH cofactor. Each\ndata point represents the average of triplicate measurements with\nerror bars representing standard",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0005.jpg",
+    "alt_text": "Figure 5",
+    "local_image_path": "images/fig5_tx3c00192_0005.jpg"
+  },
+  {
+    "id": "fig6",
+    "caption": "Time-dependent\ninactivation of CYP3A4 midazolam 1′-hydroxylation\nby NVP and 12-d 3 -NVP. Pseudo-first-order kinetic plots\nfor six concentrations of NVP (A) and 12-d 3 -NVP (B) were\nbased on the percent CYP3A4 remaining activity versus the preincubation\ntime and led to the nonlinear regression fits (C) of the inactivation\nrate constants ( k obs ) at the six inhibitor\nconcentrations assessed. The K I and k inact values were determined to be 168 μM\nand 0.148 min –1 for NVP and 112 μM and 0.0977\nmin",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0006.jpg",
+    "alt_text": "Figure 6",
+    "local_image_path": "images/fig6_tx3c00192_0006.jpg"
+  },
+  {
+    "id": "fig7",
+    "caption": "Recombinant CYP3A4 and CYP2B6 metabolite and\nglutathione-trapped\nreactive metabolite screening for NVP and 12-d 3 -NVP. Representative\nUV chromatograms (280 nm) for NVP (A, B) and 12-d 3 -NVP\n(C, D) incubated at 50 μM for 60 min with recombinant CYP3A4\n(A, C) and CYP2B6 (B, D) (100 pmol/mL) in the presence of 1 mM reduced l -glutathione and with or without the cofactor NADPH. IS, internal\nstandard.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0007.jpg",
+    "alt_text": "Figure 7",
+    "local_image_path": "images/fig7_tx3c00192_0007.jpg"
+  },
+  {
+    "id": "fig8",
+    "caption": "Glutathione metabolites of NVP and 12-d 3 -NVP\nformed\nby recombinant CYP3A4. MS and MSMS analysis of glutathione metabolites\nformed in recombinant CYP3A4 incubations with NVP (A and C) and 12-d 3 -NVP (B and D). Extracted m / z 572 (A) and 575 (B) chromatograms from full scan MS measurements\n( m / z 100–1000), including\nthe inset for isotopic distribution of the parent ion. MSMS spectra\nfor glutathione metabolite of NVP (C) and 12-d 3 -NVP (D)\ndetected in CYP3A4 incubations, including the inset ",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0008.jpg",
+    "alt_text": "Figure 8",
+    "local_image_path": "images/fig8_tx3c00192_0008.jpg"
+  },
+  {
+    "id": "fig9",
+    "caption": "Quantitation\nby UV of the major NVP and 12-d 3 -NVP metabolites\nformed in the recombinant CYP3A4 glutathione-trapping reactions. The\n2-hydroxy (2OH), 12-hydroxy (12OH), and GSH metabolites formed in\nrecombinant CYP3A4 (100 pmol/mL) incubations with NVP or 12-d 3 -NVP (50 μM) were analyzed by LC-UV-MS and quantified\nbased on their UV peak signals at 280 nm. Metabolite UV peak area\nratios were calculated using 4-hydroxy-midazolam as the internal standard.\nBars represent the mean of three replicate",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0009.jpg",
+    "alt_text": "Figure 9",
+    "local_image_path": "images/fig9_tx3c00192_0009.jpg"
+  },
+  {
+    "id": "gr2",
+    "caption": "",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0010.jpg",
+    "alt_text": "",
+    "local_image_path": "images/gr2_tx3c00192_0010.jpg"
+  },
+  {
+    "id": "ab-tgr1",
+    "caption": "Graphical Abstract",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10583834.1/tx3c00192_0011.jpg",
+    "alt_text": "Graphical Abstract",
+    "local_image_path": "images/ab-tgr1_tx3c00192_0011.jpg"
+  }
+]

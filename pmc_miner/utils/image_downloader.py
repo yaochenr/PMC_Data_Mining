@@ -1,11 +1,12 @@
-"""Image downloader for PMC papers, scrapes the HTML rendering since XML rarely has URLs."""
+"""Image downloader for PMC papers via the pmc-oa-opendata S3 bucket."""
 
 import json
 import logging
+import re
 import time
 from pathlib import Path
-from typing import Dict, List
-from urllib.parse import urljoin, urlparse
+from typing import Dict, List, Optional
+from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -13,107 +14,138 @@ from bs4 import BeautifulSoup
 from pmc_miner.core.storage import StorageManager
 
 
+PMC_OA_S3_BUCKET_URL = "https://pmc-oa-opendata.s3.amazonaws.com/"
+_IMAGE_EXT_PATTERN = re.compile(r'\.(jpe?g|png|gif|tiff?)$', re.IGNORECASE)
+
+
 class PMCImageDownloader:
-    """Downloads figure images from the PMC HTML page (XML rarely carries URLs)."""
+    """Downloads figure images from the PMC OA S3 bucket (HTML scraping is blocked by reCAPTCHA)."""
 
     def __init__(self, storage_manager: StorageManager):
         self.storage = storage_manager
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            'User-Agent': 'PMC-Image-Downloader/1.0 (mailto:research@example.com)'
         })
         self._last_page_was_stub = False
 
-    def get_pmc_html_url(self, pmcid: str) -> str:
-        clean_id = pmcid.replace('PMC', '')
-        return f"https://pmc.ncbi.nlm.nih.gov/articles/PMC{clean_id}/"
+    def _list_s3_article_objects(self, pmcid: str) -> Optional[Dict[str, object]]:
+        try:
+            list_url = f"{PMC_OA_S3_BUCKET_URL}?list-type=2&prefix={pmcid}"
+            response = self.session.get(list_url, timeout=30)
+            if response.status_code != 200:
+                logging.warning(f"S3 list failed for {pmcid}: HTTP {response.status_code}")
+                return None
 
-    def _fetch_article_html(self, url: str, max_attempts: int = 3) -> bytes:
-        last_err = None
-        for attempt in range(1, max_attempts + 1):
-            try:
-                response = self.session.get(url, timeout=30)
-                response.raise_for_status()
-                if b'<img ' in response.content:
-                    return response.content
-                logging.warning(f"Attempt {attempt}/{max_attempts} returned page with no <img> tags: {url}")
-            except Exception as e:
-                last_err = e
-                logging.warning(f"Attempt {attempt}/{max_attempts} failed for {url}: {e}")
-            if attempt < max_attempts:
-                time.sleep(2 * attempt)
-        if last_err:
-            raise last_err
-        return response.content
+            soup = BeautifulSoup(response.content, 'xml')
+            keys = [k.get_text() for k in soup.find_all('Key')]
+            if not keys:
+                return None
+
+            version_re = re.compile(rf'^{re.escape(pmcid)}\.(\d+)/')
+            versions = {int(m.group(1)) for k in keys if (m := version_re.match(k))}
+            if not versions:
+                return None
+
+            latest = max(versions)
+            prefix = f"{pmcid}.{latest}/"
+            article_keys = [k for k in keys if k.startswith(prefix)]
+
+            xml_key = next(
+                (k for k in article_keys if k.lower().endswith(('.nxml', '.xml'))),
+                None,
+            )
+            image_keys = [k for k in article_keys if _IMAGE_EXT_PATTERN.search(k)]
+
+            return {
+                'version': latest,
+                'prefix': prefix,
+                'xml_key': xml_key,
+                'image_keys': image_keys,
+            }
+        except Exception as e:
+            logging.warning(f"Failed to list S3 objects for {pmcid}: {e}")
+            return None
+
+    def _fetch_xml_captions(self, xml_url: str) -> Dict[str, Dict[str, str]]:
+        try:
+            response = self.session.get(xml_url, timeout=30)
+            if response.status_code != 200:
+                return {}
+            soup = BeautifulSoup(response.content, 'xml')
+            mapping: Dict[str, Dict[str, str]] = {}
+
+            for fig in soup.find_all('fig'):
+                graphic = fig.find('graphic')
+                if not graphic:
+                    continue
+                href = graphic.get('xlink:href') or graphic.get('href') or ''
+                if not href:
+                    continue
+                basename = href.split('/')[-1]
+                label_el = fig.find('label')
+                caption_el = fig.find('caption')
+                mapping[basename] = {
+                    'id': fig.get('id', ''),
+                    'label': label_el.get_text(strip=True) if label_el else '',
+                    'caption': caption_el.get_text(' ', strip=True) if caption_el else '',
+                }
+
+            # add graphics outside of <fig>
+            for graphic in soup.find_all('graphic'):
+                if graphic.find_parent('fig'):
+                    continue
+                href = graphic.get('xlink:href') or graphic.get('href') or ''
+                if not href:
+                    continue
+                basename = href.split('/')[-1]
+                if basename in mapping:
+                    continue
+                in_abstract = graphic.find_parent('abstract') is not None
+                mapping[basename] = {
+                    'id': graphic.get('id') or ('graphical_abstract' if in_abstract else ''),
+                    'label': 'Graphical Abstract' if in_abstract else '',
+                    'caption': 'Graphical Abstract' if in_abstract else '',
+                }
+
+            return mapping
+        except Exception as e:
+            logging.warning(f"Failed to parse XML captions from {xml_url}: {e}")
+            return {}
 
     def scrape_figure_images(self, pmcid: str) -> List[Dict[str, str]]:
         self._last_page_was_stub = False
         try:
-            url = self.get_pmc_html_url(pmcid)
-            logging.info(f"Scraping images from: {url}")
-
-            html_bytes = self._fetch_article_html(url)
-            soup = BeautifulSoup(html_bytes, 'html.parser')
-            figures = []
-
-            img_tags = soup.find_all('img', src=True)
-            logging.info(f"Found {len(img_tags)} total img tags")
-            if len(img_tags) == 0:
+            logging.info(f"Listing S3 figure objects for {pmcid}")
+            listing = self._list_s3_article_objects(pmcid)
+            if not listing:
                 self._last_page_was_stub = True
+                logging.info(f"No S3 listing available for {pmcid}")
+                return []
 
-            for img in img_tags:
-                src = img.get('src', '')
-                if not src:
-                    continue
+            image_keys: List[str] = listing['image_keys']
+            xml_key = listing['xml_key']
 
-                if any(skip in src.lower() for skip in ['logo', 'icon', 'button', 'banner']):
-                    continue
+            caption_map: Dict[str, Dict[str, str]] = {}
+            if xml_key:
+                caption_map = self._fetch_xml_captions(PMC_OA_S3_BUCKET_URL + xml_key)
 
-                is_figure = any(term in src.lower() for term in ['fig', 'image', 'graphic', 'bin/']) or \
-                           any(term in (img.get('alt', '') + img.get('title', '')).lower() for term in ['fig', 'figure'])
-
-                if not is_figure:
-                    continue
-
-                figure_id = ""
-                caption = ""
-                alt_text = img.get('alt', '')
-
-                parent_fig = img.find_parent(['figure', 'div', 'section'])
-
-                if parent_fig:
-                    figure_id = parent_fig.get('id', '')
-                    if not figure_id and parent_fig.get('class'):
-                        figure_id = ' '.join(parent_fig.get('class', []))
-
-                    caption_elem = parent_fig.find(['figcaption', 'div', 'p', 'span'])
-                    if caption_elem and any(term in caption_elem.get_text().lower() for term in ['figure', 'fig']):
-                        caption = caption_elem.get_text(strip=True)
-
-                if src.startswith('//'):
-                    src = 'https:' + src
-                elif not src.startswith('http'):
-                    src = urljoin(url, src)
-
+            figures = []
+            for key in image_keys:
+                filename = key.split('/')[-1]
+                meta = caption_map.get(filename, {})
                 figures.append({
-                    'id': figure_id or f"img_{len(figures)+1}",
-                    'caption': caption[:500] if caption else alt_text[:500],
-                    'image_url': src,
-                    'alt_text': alt_text
+                    'id': meta.get('id') or Path(filename).stem,
+                    'caption': (meta.get('caption') or '')[:500],
+                    'image_url': PMC_OA_S3_BUCKET_URL + key,
+                    'alt_text': meta.get('label', ''),
                 })
 
-            seen_urls = set()
-            unique_figures = []
-            for fig in figures:
-                if fig['image_url'] not in seen_urls:
-                    seen_urls.add(fig['image_url'])
-                    unique_figures.append(fig)
-
-            logging.info(f"Found {len(unique_figures)} unique figure images for {pmcid}")
-            return unique_figures
+            logging.info(f"Found {len(figures)} figure images for {pmcid}")
+            return figures
 
         except Exception as e:
-            logging.error(f"Failed to scrape images for {pmcid}: {e}")
+            logging.error(f"Failed to enumerate figures for {pmcid}: {e}")
             self._last_page_was_stub = True
             return []
 

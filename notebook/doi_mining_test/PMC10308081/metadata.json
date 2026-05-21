@@ -1,0 +1,42 @@
+{
+  "pmcid": "PMC10308081",
+  "pmid": "37397492",
+  "doi": "10.3389/fphar.2023.1207928",
+  "title": "Metabolism and toxicity of usnic acid and barbatic acid based on microsomes, S9 fraction, and 3T3 fibroblasts in vitro combined with a UPLC-Q-TOF-MS method.",
+  "authors": [
+    {
+      "name": "Wang H",
+      "authtype": "Author"
+    },
+    {
+      "name": "Xuan M",
+      "authtype": "Author"
+    },
+    {
+      "name": "Diao J",
+      "authtype": "Author"
+    },
+    {
+      "name": "Xu N",
+      "authtype": "Author"
+    },
+    {
+      "name": "Li M",
+      "authtype": "Author"
+    },
+    {
+      "name": "Huang C",
+      "authtype": "Author"
+    },
+    {
+      "name": "Wang C",
+      "authtype": "Author"
+    }
+  ],
+  "journal": "Frontiers in pharmacology",
+  "pubdate": "2023",
+  "abstract": "Introduction: Usnic acid (UA) and barbatic acid (BA), two typical dibenzofurans and depsides in lichen, have a wide range of pharmacological activities and hepatotoxicity concerns. This study aimed to clarify the metabolic pathway of UA and BA and illuminate the relationship between metabolism and toxicity. Methods: An UPLC-Q-TOF-MS method was developed for metabolite identification of UA and BA in human liver microsomes (HLMs), rat liver microsomes (RLMs), and S9 fraction (RS9). The key metabolic enzymes responsible for UA and BA were identified by enzyme inhibitors combined with recombinant human cytochrome P450 (CYP450) enzymes. The cytotoxicity and metabolic toxicity mechanism of UA and BA were determined by the combination model of human primary hepatocytes and mouse 3T3 fibroblasts. Results: The hydroxylation, methylation, and glucuronidation reactions were involved in the metabolic profiles of UA and BA in RLMs, HLMs, and RS9. CYP2C9, CYP3A4, CYP2C8, and UGT1A1 are key metabolic enzymes responsible for metabolites of UA and CYP2C8, CYP2C9, CYP2C19, CYP1A1, UGT1A1, UGT1A3, UGT1A7, UGT1A8, UGT1A9, and UGT1A10 for metabolites of BA. UA and BA did not display evident cytotoxicity in human primary hepatocytes at concentrations of 0.01–25 and 0.01–100 µM, respectively, but showed potential cytotoxicity to mouse 3T3 fibroblasts with 50% inhibitory concentration values of 7.40 and 60.2 µM. Discussion: In conclusion, the attenuated cytotoxicity of BA is associated with metabolism, and UGTs may be the key metabolic detoxification enzymes. The cytotoxicity of UA may be associated with chronic toxicity. The present results provide important insights into the understanding of the biotransformation behavior and metabolic detoxification of UA and BA.",
+  "keywords": [],
+  "download_date": "2026-05-21T18:57:01.963666",
+  "relevance_score": null
+}

@@ -1,0 +1,21 @@
+{
+  "pmcid": "PMC10444680",
+  "has_supplements": true,
+  "footnote_references": [],
+  "external_links": [],
+  "download_status": "starting",
+  "download_date": "2026-05-21 18:58:00",
+  "total_files": 1,
+  "total_size_bytes": 5354927,
+  "files": [
+    {
+      "id": "MOESM1",
+      "filename": "216_2023_4815_MOESM1_ESM.docx",
+      "caption": "Supplementary Information",
+      "file_type": "docx",
+      "size_bytes": 5354927,
+      "local_path": "/Users/yaochenr/project/pmc_data_mining/notebook/doi_mining_test/PMC10444680/supplementary_extraction/216_2023_4815_MOESM1_ESM.docx",
+      "content_summary": ".docx file (5229.4 KB)"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# test DOIs excluded from processing
+# Generated: 2026-05-21T18:58:09.972839
+# Total excluded: 0 / 10
+
+# === NOT FOUND IN PMC (0) ===
+
+# === IN PMC BUT NOT OPEN ACCESS (0) ===

@@ -1,0 +1,46 @@
+{
+  "pmcid": "PMC10583834",
+  "has_supplements": true,
+  "footnote_references": [],
+  "external_links": [
+    {
+      "text": "Figure S1",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf"
+    },
+    {
+      "text": "Figure S2",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf"
+    },
+    {
+      "text": "Figure S3",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf"
+    },
+    {
+      "text": "Figure S4",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf"
+    },
+    {
+      "text": "https://pubs.acs.org/doi/10.1021/acs.chemrestox.3c00192",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.chemrestox.3c00192?goto=supporting-info"
+    },
+    {
+      "text": "PDF",
+      "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf"
+    }
+  ],
+  "download_status": "starting",
+  "download_date": "2026-05-21 18:57:26",
+  "total_files": 1,
+  "total_size_bytes": 322550,
+  "files": [
+    {
+      "id": "si_001",
+      "filename": "tx3c00192_si_001.pdf",
+      "caption": "Supporting Information",
+      "file_type": "pdf",
+      "size_bytes": 322550,
+      "local_path": "/Users/yaochenr/project/pmc_data_mining/notebook/doi_mining_test/PMC10583834/supplementary_extraction/tx3c00192_si_001.pdf",
+      "content_summary": "PDF document (315.0 KB)"
+    }
+  ]
+}

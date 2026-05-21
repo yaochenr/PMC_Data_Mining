@@ -243,6 +243,7 @@ class TextProcessor:
 
     def _extract_figures_bs(self, soup: BeautifulSoup) -> List[Dict[str, str]]:
         figures = []
+        seen_image_urls = set()
 
         fig_tags = soup.find_all(['fig', 'figure'])
         for fig in fig_tags:
@@ -266,6 +267,23 @@ class TextProcessor:
                     'caption': caption,
                     'image_url': image_url
                 })
+                if image_url:
+                    seen_image_urls.add(image_url)
+        # Mine <graphic> tag ourside of <fig>
+        for graphic in soup.find_all('graphic'):
+            if graphic.find_parent(['fig', 'figure']):
+                continue
+            href = graphic.get('xlink:href') or graphic.get('href') or ''
+            if not href or href in seen_image_urls:
+                continue
+            in_abstract = graphic.find_parent('abstract') is not None
+            figures.append({
+                'id': graphic.get('id') or ('graphical_abstract' if in_abstract else ''),
+                'title': 'Graphical Abstract' if in_abstract else '',
+                'caption': 'Graphical Abstract' if in_abstract else '',
+                'image_url': href,
+            })
+            seen_image_urls.add(href)
 
         return figures
 
@@ -292,7 +310,6 @@ class TextProcessor:
                         if row_text.strip():
                             content += row_text + '\n'
 
-                # 脚注承载实验条件/统计信息,用 '|' 拼到 caption 后面一起保留。
                 footnotes = []
                 table_wrap_foot = table_wrap.find('table-wrap-foot')
                 if table_wrap_foot:
@@ -452,8 +469,6 @@ class TextProcessor:
 
         text = re.sub(r'\s+', ' ', text)
 
-        # 白名单:基本标点、科学符号(±、μ、°、希腊字母)、LaTeX 风格的上下标记号
-        # (^、_、{、})以及 Unicode 破折号 — 都要保留,不能被过滤掉。
         text = re.sub(r'[^\w\s\.\,\;\:\!\?\-\(\)\[\]\/\%\+\=\<\>\'\"±μ°αβγδεζηθικλμνξπρστυφχψω℃℉×÷≤≥≈∼\^\_{}\|‐‑‒–—―]', ' ', text)
 
         text = re.sub(r'\s+([\.,:;!?])', r'\1', text)

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fig01",
+    "caption": "Metabolic analysis of salicortin in the feces of Chrysomela tremulae . ( A ) LC-ESI-Q-TOF-MS analysis: Volcano plot analysis of feces metabolites comparing salicortin-coated group with a control group using negative and positive ionization ( P < 0.05). ( B ) Proposed metabolism of salicortin in C. tremulae . ( C ) Detection of chrysotremulin A ( 11 ) in the feces extract of C. tremulae . ( a ) Base peak chromatogram (positive mode) of C. tremulae feces in the salicortin-coated group with Salix v",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12745818.1/pnas.2518096122fig01.jpg",
+    "alt_text": "Fig. 1.",
+    "local_image_path": "images/fig01_pnas.2518096122fig01.jpg"
+  },
+  {
+    "id": "fig02",
+    "caption": "( A ) Identification of kynurenine pathway metabolites in the fecal extract of the salicortin-coated group with Salix viminalis was accomplished by comparison with authentic reference standards utilizing LC-ESI-HRMS. ( a ) Base peak chromatogram in positive ionization mode of the feces extracts in the salicortin-coated group; ( b to e ) Extracted ion chromatograms for tryptophan ( m/z 205.0972), kynurenine ( m/z 209.0922), kynurenic acid ( m/z 190.0500), and 4-hydroxyquinoline ( m/z 146.0599); (",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12745818.1/pnas.2518096122fig02.jpg",
+    "alt_text": "Fig. 2.",
+    "local_image_path": "images/fig02_pnas.2518096122fig02.jpg"
+  },
+  {
+    "id": "fig03",
+    "caption": "Metabolite profile alterations in C. tremulae larval feces following 72 h of feeding on leaves coated with graded saligenin concentrations. ( A ) Change in the relative content of the main salicortin metabolites, salicortin ( 1 ), salicortinol ( 2 ), salicin ( 3 ), saligenin ( 4 ), and salicylic acid ( 5 ). ( B ) Change in the relative content of chrysotremulins A–C ( 11–13 ). ( C ) Change in the relative content of tryptophan metabolites, including tryptophan, kynurenine, kynurenic acid, and 4-",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12745818.1/pnas.2518096122fig03.jpg",
+    "alt_text": "Fig. 3.",
+    "local_image_path": "images/fig03_pnas.2518096122fig03.jpg"
+  }
+]

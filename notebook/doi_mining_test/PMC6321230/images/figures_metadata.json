@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pharmaceutics-10-00178-f001",
+    "caption": "Metabolic stability of midazolam ( A ), Capilliposide B (LC-B) ( B ) and Capilliposide C (LC-C) ( C ) in human liver microsomes (HLM), rat liver microsomes (RLM), mouse liver microsomes (MLM), and MLM with diclorvos, respectively ( n = 3). Metabolic stability of LC-A ( D ) in HLM and RLM ( n = 3).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6321230.1/pharmaceutics-10-00178-g001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/pharmaceutics-10-00178-f001_pharmaceutics-10-00178-g001.jpg"
+  },
+  {
+    "id": "pharmaceutics-10-00178-f002",
+    "caption": "The representative extracted ion chromatograms (XIC) of LC-B, LC-C, and their metabolites. ( A ) The XIC of standard LC-B, LC-C, and LC-A. ( B , C ) The XIC of LC-B, LC-C, and their metabolites in pooled feces and blank feces. ( D , E ) The XIC of LC-B, LC-C, and their metabolites in pooled plasma and blank plasma. ( F , G ) The XIC of LC-B, LC-C, and their metabolites in pooled urine and blank urine.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6321230.1/pharmaceutics-10-00178-g002.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/pharmaceutics-10-00178-f002_pharmaceutics-10-00178-g002.jpg"
+  },
+  {
+    "id": "pharmaceutics-10-00178-f003",
+    "caption": "Typical MS/MS spectra of LC-B ( A ), LC-C ( B ), LC-A ( C ), M2-M6 ( D – H ), respectively.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6321230.1/pharmaceutics-10-00178-g003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/pharmaceutics-10-00178-f003_pharmaceutics-10-00178-g003.jpg"
+  },
+  {
+    "id": "pharmaceutics-10-00178-f004",
+    "caption": "The proposed metabolic pathway of LC-B ( A ) and LC-C ( B ) in mice following oral dosing of total saponins of L. capillipes Hemsl extract (LCE).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6321230.1/pharmaceutics-10-00178-g004A.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/pharmaceutics-10-00178-f004_pharmaceutics-10-00178-g004A.jpg"
+  },
+  {
+    "id": "pharmaceutics-10-00178-g004B",
+    "caption": "",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6321230.1/pharmaceutics-10-00178-g004B.jpg",
+    "alt_text": "",
+    "local_image_path": "images/pharmaceutics-10-00178-g004B_pharmaceutics-10-00178-g004B.jpg"
+  }
+]

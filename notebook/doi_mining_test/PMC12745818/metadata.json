@@ -1,0 +1,46 @@
+{
+  "pmcid": "PMC12745818",
+  "pmid": "41397128",
+  "doi": "10.1073/pnas.2518096122",
+  "title": "Leaf beetles employ tryptophan to detoxify the chemical defenses of poplar trees.",
+  "authors": [
+    {
+      "name": "Peng X",
+      "authtype": "Author"
+    },
+    {
+      "name": "Reichelt M",
+      "authtype": "Author"
+    },
+    {
+      "name": "Baños-Quintana AP",
+      "authtype": "Author"
+    },
+    {
+      "name": "Rothe B",
+      "authtype": "Author"
+    },
+    {
+      "name": "Feistel F",
+      "authtype": "Author"
+    },
+    {
+      "name": "Kaltenpoth M",
+      "authtype": "Author"
+    },
+    {
+      "name": "Gershenzon J",
+      "authtype": "Author"
+    },
+    {
+      "name": "Unsicker SB",
+      "authtype": "Author"
+    }
+  ],
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "pubdate": "2025 Dec 23",
+  "abstract": "SignificanceSpecialist insect herbivores feed on plant organs containing high concentrations of chemical defenses without any apparent negative effects. A striking example is the poplar leaf beetle (Chrysomela tremulae) which feeds on young poplar leaves that can contain salicinoid defenses at concentrations up to 15%. Here, we show that these leaf beetles efficiently metabolize salicinoids by conjugating them with plant-derived tryptophan metabolites, thereby neutralizing these toxins. This intrinsic detoxification pathway, which functions independently of bacterial symbionts, is an example of a sophisticated biochemical adaptation. This pathway enables C. tremulae and related herbivores to exploit heavily defended host plants and could provide novel targets for developing anti-insect agents to protect poplar trees.",
+  "keywords": [],
+  "download_date": "2026-05-21T18:57:37.855638",
+  "relevance_score": null
+}

@@ -1,0 +1,59 @@
+{
+  "session_start_time": "2026-05-21T18:56:29.078304",
+  "completion_time": "2026-05-21T18:58:09.973536",
+  "source_file": "/Users/yaochenr/project/pmc_data_mining/notebook/test_dois.csv",
+  "output_directory": "/Users/yaochenr/project/pmc_data_mining/notebook/doi_mining_test",
+  "paper_type": "test",
+  "statistics": {
+    "total_dois": 10,
+    "found_pmc_ids": 10,
+    "successfully_processed": 10,
+    "failed_processing": 0,
+    "not_in_pmc": 0,
+    "not_open_access": 0,
+    "already_processed": 0
+  },
+  "successful_papers": [
+    {
+      "doi": "10.1002/prp2.281",
+      "pmc_id": "PMC5461651"
+    },
+    {
+      "doi": "10.3390/metabo13040576",
+      "pmc_id": "PMC10141538"
+    },
+    {
+      "doi": "10.3390/molecules24010071",
+      "pmc_id": "PMC6337141"
+    },
+    {
+      "doi": "10.3389/fphar.2023.1207928",
+      "pmc_id": "PMC10308081"
+    },
+    {
+      "doi": "10.1021/tx500031p",
+      "pmc_id": "PMC4028327"
+    },
+    {
+      "doi": "10.1021/acs.chemrestox.3c00192",
+      "pmc_id": "PMC10583834"
+    },
+    {
+      "doi": "10.1073/pnas.2518096122",
+      "pmc_id": "PMC12745818"
+    },
+    {
+      "doi": "10.1155/2021/8434204",
+      "pmc_id": "PMC8166468"
+    },
+    {
+      "doi": "10.3390/pharmaceutics10040178",
+      "pmc_id": "PMC6321230"
+    },
+    {
+      "doi": "10.1007/s00216-023-04815-3",
+      "pmc_id": "PMC10444680"
+    }
+  ],
+  "failed_papers": []
+}

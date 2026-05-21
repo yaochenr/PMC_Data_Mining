@@ -1,0 +1,21 @@
+{
+  "pmcid": "PMC6321230",
+  "has_supplements": true,
+  "footnote_references": [],
+  "external_links": [],
+  "download_status": "starting",
+  "download_date": "2026-05-21 18:57:53",
+  "total_files": 1,
+  "total_size_bytes": 546004,
+  "files": [
+    {
+      "id": "pharmaceutics-10-00178-s001",
+      "filename": "pharmaceutics-10-00178-s001.pdf",
+      "caption": "pharmaceutics-10-00178-s001.pdf",
+      "file_type": "pdf",
+      "size_bytes": 546004,
+      "local_path": "/Users/yaochenr/project/pmc_data_mining/notebook/doi_mining_test/PMC6321230/supplementary_extraction/pharmaceutics-10-00178-s001.pdf",
+      "content_summary": "PDF document (533.2 KB)"
+    }
+  ]
+}

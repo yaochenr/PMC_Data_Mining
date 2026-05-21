@@ -1,0 +1,26 @@
+{
+  "pmcid": "PMC10583834",
+  "pmid": "37769118",
+  "doi": "10.1021/acs.chemrestox.3c00192",
+  "title": "Consideration of Nevirapine Analogs To Reduce Metabolically Linked Hepatotoxicity: A Cautionary Tale of the Deuteration Approach.",
+  "authors": [
+    {
+      "name": "Kandel SE",
+      "authtype": "Author"
+    },
+    {
+      "name": "Gracey EG",
+      "authtype": "Author"
+    },
+    {
+      "name": "Lampe JN",
+      "authtype": "Author"
+    }
+  ],
+  "journal": "Chemical research in toxicology",
+  "pubdate": "2023 Oct 16",
+  "abstract": "Idiosyncratic drug reactions (IDRs) in their most deleterious form can lead to serious medical complications and potentially fatal events. Nevirapine (NVP), still widely used in developing countries for combinatorial antiretroviral and prophylactic therapies against HIV infection, represents a prototypical example of IDRs causing severe skin rashes and hepatotoxicity. Complex metabolic pathways accompanied by production of multiple reactive metabolites often complicate our understanding of IDR s origin. While assessment of NVP analogs has helped characterize the pathways involved in IDRs for NVP, which are largely driven by metabolism at the 12-methyl position, it has yet to be investigated if some of these analogs could be valuable replacement drugs with reduced reactive metabolite properties and drug–drug interaction (DDI) risks. Here, we evaluated a set of eight NVP analogs, including the deuterated 12-d3-NVP and two NVP metabolites, for their efficacy and inhibitory potencies against HIV reverse transcriptase (HIV-RT). A subset of three analogs, demonstrating >85% inhibition for HIV-RT, was further assessed for their hepatic CYP induction-driven DDI risks. This led to a closer investigation of the inactivation properties of 12-d3-NVP for hepatic CYP3A4 and a comparison of its propensity in generating reactive metabolite species. The metabolic shift triggered with 12-d3-NVP, increasing formation of the 2-hydroxy and glutathione metabolites, emphasized the importance of the dynamic balance between induction and metabolism-dependent inactivation of CYP3A4 and its impact on clearance of NVP during treatment. Unfortunately, the strategy of incorporating deuterium to reduce NVP metabolism and production of the electrophile species elicited opposite results, illustrating the great challenges involved in tackling IDRs through deuteration.",
+  "keywords": [],
+  "download_date": "2026-05-21T18:57:26.385037",
+  "relevance_score": null
+}

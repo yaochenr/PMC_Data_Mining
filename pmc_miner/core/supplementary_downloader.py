@@ -1,16 +1,17 @@
 """Supplementary information downloader for PMC papers."""
 
+import re
 import requests
-import tarfile
-import tempfile
 import logging
 import json
 import time
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 from dataclasses import dataclass
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+
+
+PMC_OA_S3_BUCKET_URL = "https://pmc-oa-opendata.s3.amazonaws.com/"
 
 
 @dataclass
@@ -68,12 +69,12 @@ class SupplementaryDownloader:
         )
 
         try:
-            oa_info = self._get_oa_package_info(pmcid)
-            if not oa_info:
+            s3_listing = self._list_s3_article_files(pmcid)
+            if not s3_listing:
                 supp_info.download_status = "no_oa_package"
                 return supp_info
 
-            package_files = self._download_oa_package(pmcid, oa_info['url'])
+            package_files = self._download_s3_article_files(pmcid, s3_listing)
             if not package_files:
                 supp_info.download_status = "download_failed"
                 return supp_info
@@ -99,74 +100,87 @@ class SupplementaryDownloader:
 
         return supp_info
 
-    def _get_oa_package_info(self, pmcid: str) -> Optional[Dict[str, str]]:
+    def _list_s3_article_files(self, pmcid: str) -> Optional[Dict[str, object]]:
+        # change to pmc-oa-opendata S3 bucket
         try:
-            oa_url = f"https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id={pmcid}"
-            response = self.session.get(oa_url, timeout=30)
-
-            if response.status_code == 200:
-                soup = BeautifulSoup(response.content, 'xml')
-                links = soup.find_all('link')
-
-                for link in links:
-                    format_attr = link.get('format', '').lower()
-                    href = link.get('href', '')
-
-                    if 'tgz' in format_attr and href:
-                        # FTP 地址能用,但换成 HTTPS 更容易穿越防火墙。
-                        if href.startswith('ftp://'):
-                            href = href.replace('ftp://', 'https://')
-
-                        return {
-                            'url': href,
-                            'format': format_attr
-                        }
-
-        except Exception as e:
-            logging.warning(f"Failed to get OA package info for {pmcid}: {e}")
-
-        return None
-
-    def _download_oa_package(self, pmcid: str, package_url: str) -> Optional[Dict[str, Path]]:
-        try:
-            logging.info(f"Downloading OA package from {package_url}")
-
-            response = self.session.get(package_url, stream=True, timeout=60)
+            list_url = f"{PMC_OA_S3_BUCKET_URL}?list-type=2&prefix={pmcid}"
+            response = self.session.get(list_url, timeout=30)
 
             if response.status_code != 200:
-                logging.error(f"Failed to download package: HTTP {response.status_code}")
+                logging.warning(f"S3 list failed for {pmcid}: HTTP {response.status_code}")
                 return None
 
+            soup = BeautifulSoup(response.content, 'xml')
+            keys = [k.get_text() for k in soup.find_all('Key')]
+            if not keys:
+                return None
+            version_re = re.compile(rf'^{re.escape(pmcid)}\.(\d+)/')
+            versions = {int(m.group(1)) for k in keys if (m := version_re.match(k))}
+            if not versions:
+                return None
+
+            latest = max(versions)
+            prefix = f"{pmcid}.{latest}/"
+            files = [k for k in keys if k.startswith(prefix)]
+
+            logging.info(f"Found {len(files)} S3 objects for {pmcid} (version {latest})")
+            return {'version': latest, 'prefix': prefix, 'files': files}
+
+        except Exception as e:
+            logging.warning(f"Failed to list S3 files for {pmcid}: {e}")
+            return None
+
+    def _download_s3_article_files(
+        self, pmcid: str, s3_listing: Dict[str, object]
+    ) -> Optional[Dict[str, Path]]:
+        try:
             extract_dir = self.output_dir / pmcid / "supplementary_extraction"
             extract_dir.mkdir(parents=True, exist_ok=True)
 
-            package_file = extract_dir / f"{pmcid}.tar.gz"
+            extracted_files: Dict[str, object] = {}
+            total_bytes = 0
 
-            with open(package_file, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
+            for key in s3_listing['files']:
+                filename = key.split('/')[-1]
+                filename_lower = filename.lower()
 
-            logging.info(f"Package downloaded: {package_file.stat().st_size / 1024:.2f} KB")
+                is_xml = filename_lower.endswith('.nxml') or filename_lower.endswith('.xml')
+                is_supp = bool(re.search(r'-s\d+\.', filename_lower)) or any(
+                    pat in filename_lower for pat in ['supp', 'supplement', 'esm', 'moesm', 'si_']
+                )
 
-            with tarfile.open(package_file, 'r:gz') as tar:
-                tar.extractall(extract_dir, filter='data')
+                if not (is_xml or is_supp):
+                    continue
 
-            extracted_files = {}
-            for file_path in extract_dir.rglob('*'):
-                if file_path.is_file() and file_path.name != f"{pmcid}.tar.gz":
-                    filename = file_path.name.lower()
+                file_url = PMC_OA_S3_BUCKET_URL + key
+                logging.info(f"Downloading {file_url}")
 
-                    if filename.endswith('.nxml') or filename.endswith('.xml'):
-                        extracted_files['xml_file'] = file_path
-                    elif any(pattern in filename for pattern in ['supp', 'supplement', 'esm', 'moesm', 'si_']):
-                        if 'supplementary_files' not in extracted_files:
-                            extracted_files['supplementary_files'] = []
-                        extracted_files['supplementary_files'].append(file_path)
+                response = self.session.get(file_url, stream=True, timeout=60)
+                if response.status_code != 200:
+                    logging.warning(f"Failed to download {key}: HTTP {response.status_code}")
+                    continue
 
+                local_path = extract_dir / filename
+                with open(local_path, 'wb') as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+
+                total_bytes += local_path.stat().st_size
+
+                if is_xml:
+                    extracted_files['xml_file'] = local_path
+                else:
+                    extracted_files.setdefault('supplementary_files', []).append(local_path)
+
+            if not extracted_files:
+                logging.info(f"No XML/supplementary files in S3 listing for {pmcid}")
+                return None
+
+            logging.info(f"Downloaded {total_bytes / 1024:.2f} KB for {pmcid}")
             return extracted_files
 
         except Exception as e:
-            logging.error(f"Failed to download/extract OA package for {pmcid}: {e}")
+            logging.error(f"Failed to download S3 article files for {pmcid}: {e}")
             return None
 
     def _extract_supplementary_metadata(self, xml_file: Optional[Path]) -> Dict[str, List]:

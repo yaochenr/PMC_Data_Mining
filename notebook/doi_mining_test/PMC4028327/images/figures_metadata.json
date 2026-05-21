@@ -1,0 +1,72 @@
+[
+  {
+    "id": "fig1",
+    "caption": "HPLC detection of phenanthrene-9,10-quinone\nmetabolites in HepG2\ncells. (A) UV chromatogram at λ max 264 nm of the\n0 h chromatographic run. (B) UV chromatogram at λ max 264 nm of the 24 h chromatographic run. (C) FLR chromatogram at\nλ ex 252 nm and λ em 365 nm of the\n0 h chromatographic run. (D) FLR chromatogram at λ ex 252 nm and λ em 365 nm of the 24 h chromatographic\nrun. HepG2 cells (∼5 × 10 6 ) were treated with\nphenanthrene-9,10-quinone (1 μM, 0.2% (v/v) DMSO) in MEM (without\nphenol red) c",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/fig1_tx-2014-00031p_0001.jpg"
+  },
+  {
+    "id": "fig2",
+    "caption": "O -Mono-glucuronosyl-phenanthrene-9,10-catechol\ndetected in HepG2 cells. (A) MS 2 chromatogram at 0 h. (B)\nMS 2 chromatogram at 24 h. (C) MS 2 spectrum.\n(D) MS 3 spectrum. HepG2 cells (∼5 × 10 6 ) were treated with phenanthrene-9,10-quinone (1 μM,\n0.2% (v/v) DMSO) in MEM (without phenol red) containing 10 mM glucose.\nThe cell media were collected at 0 and 24 h and were subsequently\nacidified with 0.1% formic acid before extraction with ethyl acetate.\nThe extracts were analyzed on an ion trap LC–",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0002.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/fig2_tx-2014-00031p_0002.jpg"
+  },
+  {
+    "id": "fig3",
+    "caption": "Characterization of synthetic O -mono-glucuronosyl-phenanthrene-9,10-catechol.\n(A) UV chromatogram at λ max 264 nm. (B) FLR chromatogram\nat λ ex 252 nm and λ em 365 nm. (C)\nExtracted ion chromatogram of the pseudo-SRM transition. (D) MS 2 spectrum. (E) MS 3 spectrum. 9,10-PQ = phenanthrene-9,10-quinone.\nThe product profiles were obtained after a 1 h incubation of phenanthrene-9,10-catechol\nwith UGT2B7 and UDPGA.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/fig3_tx-2014-00031p_0003.jpg"
+  },
+  {
+    "id": "fig4",
+    "caption": "O -Mono-methyl- O -mono-sulfonated-phenanthrene-9,10-catechol\ndetected in HepG2 cells. (A) MS 2 chromatogram at 0 h. (B)\nMS 2 chromatogram at 24 h. (C) MS 2 spectrum.\n(D) MS 3 spectrum. HepG2 cells (∼5 × 10 6 ) were treated with phenanthrene-9,10-quinone (1 μM,\n0.2% (v/v) DMSO) in MEM (without phenol red) containing 10 mM glucose.\nThe cell media were collected at 0 and 24 h and were subsequently\nacidified with 0.1% formic acid before extraction with ethyl acetate.\nThe extracts were analyzed on a",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0004.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/fig4_tx-2014-00031p_0004.jpg"
+  },
+  {
+    "id": "fig5",
+    "caption": "Characterization of synthetic O -mono-methyl- O -mono-sulfonated-phenanthrene-9,10-catechol.\n(A) UV chromatogram\nat λ max 264 nm. (B) FLR chromatogram at λ ex 252 nm and λ em 365 nm. (C) Extracted ion\nchromatogram of the pseudo-SRM transition. (D) MS 2 spectrum.\n(E) MS 3 spectrum. The product profiles were obtained at\n2 h, which included a 1 h incubation of phenanthrene-9,10-catechol\nwith COMT and AdoMet followed by an additional 1 h incubation with\nSULT1A1 and PAPS.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0005.jpg",
+    "alt_text": "Figure 5",
+    "local_image_path": "images/fig5_tx-2014-00031p_0005.jpg"
+  },
+  {
+    "id": "fig6",
+    "caption": "Characterization of synthetic O -mono-sulfonated-phenanthrene-9,10-catechol.\n(A) UV chromatogram at λ max 264 nm. (B) FLR chromatogram\nat λ ex 252 nm and λ em 365 nm. (C)\nExtracted ion chromatogram of the pseudo-SRM transition. (D) MS 2 spectrum. (E) MS 3 spectrum. The product profiles\nwere obtained after 1 h incubation of phenanthrene-9,10-catechol with\nSULT1A1 and PAPS.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0006.jpg",
+    "alt_text": "Figure 6",
+    "local_image_path": "images/fig6_tx-2014-00031p_0006.jpg"
+  },
+  {
+    "id": "fig7",
+    "caption": "Characterization of synthetic O -mono-methyl-phenanthrene-9,10-catechol.\n(A) UV chromatogram at λ max 264 nm. (B) FLR chromatogram\nat λ ex 252 nm and λ em 365 nm. (C)\nMS 2 chromatogram. (D) MS 2 spectrum. The product\nprofiles were obtained after 1 h incubation of phenanthrene-9,10-catechol\nwith COMT and AdoMet.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0007.jpg",
+    "alt_text": "Figure 7",
+    "local_image_path": "images/fig7_tx-2014-00031p_0007.jpg"
+  },
+  {
+    "id": "sch1",
+    "caption": "Synthetic Routes of Four Phenanthrene-9,10-catechol Conjugates",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0008.jpg",
+    "alt_text": "Scheme 1",
+    "local_image_path": "images/sch1_tx-2014-00031p_0008.jpg"
+  },
+  {
+    "id": "sch2",
+    "caption": "Proposed Metabolic\nPathway of Phenanthrene-9,10-quinone in HepG2\nCells The numbers for each metabolite\ncorrespond to the metabolites labeled in the UV and fluorescence chromatograms\nin Figure 1 .",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0009.jpg",
+    "alt_text": "Scheme 2",
+    "local_image_path": "images/sch2_tx-2014-00031p_0009.jpg"
+  },
+  {
+    "id": "ab-tgr1",
+    "caption": "Graphical Abstract",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4028327.1/tx-2014-00031p_0010.jpg",
+    "alt_text": "Graphical Abstract",
+    "local_image_path": "images/ab-tgr1_tx-2014-00031p_0010.jpg"
+  }
+]

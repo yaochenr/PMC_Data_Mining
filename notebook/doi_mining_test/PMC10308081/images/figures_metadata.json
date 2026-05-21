@@ -1,0 +1,100 @@
+[
+  {
+    "id": "graphical_abstract",
+    "caption": "Graphical Abstract",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/FPHAR_fphar-2023-1207928_wc_abs.jpg",
+    "alt_text": "Graphical Abstract",
+    "local_image_path": "images/graphical_abstract_FPHAR_fphar-2023-1207928_wc_abs.jpg"
+  },
+  {
+    "id": "F1",
+    "caption": "Chemical structures of UA and BA.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g001.jpg",
+    "alt_text": "FIGURE 1",
+    "local_image_path": "images/F1_fphar-14-1207928-g001.jpg"
+  },
+  {
+    "id": "F2",
+    "caption": "Typically extracted ion chromatograms of detected metabolites of UA from RLMs (A) , HLMs (B) , and RLS9 (C) in vitro .",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g002.jpg",
+    "alt_text": "FIGURE 2",
+    "local_image_path": "images/F2_fphar-14-1207928-g002.jpg"
+  },
+  {
+    "id": "F3",
+    "caption": "Proposed metabolic pathways of UA in vitro (positional isomerism has to be taken into account and the parent compound is marked by a rectangle. Blue arrows show the sites where metabolism is likely to occur).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g003.jpg",
+    "alt_text": "FIGURE 3",
+    "local_image_path": "images/F3_fphar-14-1207928-g003.jpg"
+  },
+  {
+    "id": "F4",
+    "caption": "MS/MS spectrum of UA and its proposed fragmentation.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g004.jpg",
+    "alt_text": "FIGURE 4",
+    "local_image_path": "images/F4_fphar-14-1207928-g004.jpg"
+  },
+  {
+    "id": "F5",
+    "caption": "Typically extracted ion chromatograms of detected metabolites of BA from RLMs (A) , HLMs (B) , and RLS9 (C) in vitro .",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g005.jpg",
+    "alt_text": "FIGURE 5",
+    "local_image_path": "images/F5_fphar-14-1207928-g005.jpg"
+  },
+  {
+    "id": "F6",
+    "caption": "Proposed metabolic pathways of BA in vitro (positional isomerism has to be taken into account and the parent compound is marked by a rectangle. Blue arrows show the sites where metabolism is likely to occur).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g006.jpg",
+    "alt_text": "FIGURE 6",
+    "local_image_path": "images/F6_fphar-14-1207928-g006.jpg"
+  },
+  {
+    "id": "F7",
+    "caption": "MS/MS spectrum of BA and its proposed fragmentation pathways.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g007.jpg",
+    "alt_text": "FIGURE 7",
+    "local_image_path": "images/F7_fphar-14-1207928-g007.jpg"
+  },
+  {
+    "id": "F8",
+    "caption": "Inhibition rate of UA metabolites in RLM in different chemical inhibitors treatment.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g008.jpg",
+    "alt_text": "FIGURE 8",
+    "local_image_path": "images/F8_fphar-14-1207928-g008.jpg"
+  },
+  {
+    "id": "F9",
+    "caption": "Peak areas of UA metabolites in different recombinant human CYP and UGT isozymes.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g009.jpg",
+    "alt_text": "FIGURE 9",
+    "local_image_path": "images/F9_fphar-14-1207928-g009.jpg"
+  },
+  {
+    "id": "F10",
+    "caption": "Inhibition rate of BA metabolites in RLM in different chemical inhibitors treatment.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g010.jpg",
+    "alt_text": "FIGURE 10",
+    "local_image_path": "images/F10_fphar-14-1207928-g010.jpg"
+  },
+  {
+    "id": "F11",
+    "caption": "Peak areas of BA metabolites in different recombinant human CYP and UGT isozymes.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g011.jpg",
+    "alt_text": "FIGURE 11",
+    "local_image_path": "images/F11_fphar-14-1207928-g011.jpg"
+  },
+  {
+    "id": "F12",
+    "caption": "Relative cell viability of UA in human primary hepatocytes (A1) and mouse 3T3 fibroblasts (A2) and relative cell viability of BA in human primary hepatocytes (B1) and mouse 3T3 fibroblasts (B2) . Data are expressed as mean ± SD, n = 3, ** p < 0.01, * p < 0.05 vs. NC group.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g012.jpg",
+    "alt_text": "FIGURE 12",
+    "local_image_path": "images/F12_fphar-14-1207928-g012.jpg"
+  },
+  {
+    "id": "F13",
+    "caption": "Relative cell viability of UA (A) and BA (B) in mouse 3T3 fibroblasts in different incubation groups. Data are expressed as mean ± SD, n = 3, ** p < 0.01, * p < 0.05 vs. NC group.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10308081.1/fphar-14-1207928-g013.jpg",
+    "alt_text": "FIGURE 13",
+    "local_image_path": "images/F13_fphar-14-1207928-g013.jpg"
+  }
+]

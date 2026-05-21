@@ -1,0 +1,65 @@
+[
+  {
+    "id": "fig1",
+    "caption": "The structure of imatinib.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/fig1_JAMC2021-8434204.001.jpg"
+  },
+  {
+    "id": "fig2",
+    "caption": "In ESI positive ion mode, different energy collision spectra of [M + H] + of IM and proposed fragmentation pattern of IM.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.002.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/fig2_JAMC2021-8434204.002.jpg"
+  },
+  {
+    "id": "fig3",
+    "caption": "Base peak ion chromatograms of biological samples in positive ion mode. P 0 , B 0 , U 0 , and F 0 represent blank samples of plasma, bile, urine, and feces from rats; P 1 , B 1 , U 1 , and F 1 represent plasma, bile, urine, and feces samples from rats after oral administration of IM.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/fig3_JAMC2021-8434204.003.jpg"
+  },
+  {
+    "id": "fig4",
+    "caption": "Extracted ion chromatograms (XIC) for metabolites in rats: (a) in blank plasma sample; (b) in plasma sample after an oral administration of IM.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.004.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/fig4_JAMC2021-8434204.004.jpg"
+  },
+  {
+    "id": "fig5",
+    "caption": "UHPLC-Q-TOF-MS/MS of all metabolites.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.005.jpg",
+    "alt_text": "Figure 5",
+    "local_image_path": "images/fig5_JAMC2021-8434204.005.jpg"
+  },
+  {
+    "id": "fig6",
+    "caption": "Extracted ion chromatograms (XIC) for metabolites in rats: (a) in blank bile sample; (b) in bile sample after an oral administration of IM.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.006.jpg",
+    "alt_text": "Figure 6",
+    "local_image_path": "images/fig6_JAMC2021-8434204.006.jpg"
+  },
+  {
+    "id": "fig7",
+    "caption": "Extracted ion chromatograms (XIC) for metabolites in rats: (a) in blank urine sample; (b) in urine sample after an oral administration of IM.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.007.jpg",
+    "alt_text": "Figure 7",
+    "local_image_path": "images/fig7_JAMC2021-8434204.007.jpg"
+  },
+  {
+    "id": "fig8",
+    "caption": "Extracted ion chromatograms (XIC) for metabolites in rats: (a) in blank feces sample; (b) in feces sample after an oral administration of IM.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.008.jpg",
+    "alt_text": "Figure 8",
+    "local_image_path": "images/fig8_JAMC2021-8434204.008.jpg"
+  },
+  {
+    "id": "fig9",
+    "caption": "Proposed metabolic pathways of IM in rats.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8166468.1/JAMC2021-8434204.009.jpg",
+    "alt_text": "Figure 9",
+    "local_image_path": "images/fig9_JAMC2021-8434204.009.jpg"
+  }
+]

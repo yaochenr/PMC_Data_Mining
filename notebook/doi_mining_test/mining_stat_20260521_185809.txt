@@ -1,0 +1,16 @@
+DOI-based PMC test Mining Results
+============================================================
+
+Session: 2026-05-21T18:56:29.078304 → 2026-05-21T18:58:09.973536
+Source:  /Users/yaochenr/project/pmc_data_mining/notebook/test_dois.csv
+Output:  /Users/yaochenr/project/pmc_data_mining/notebook/doi_mining_test
+
+total_dois: 10
+found_pmc_ids: 10
+successfully_processed: 10
+failed_processing: 0
+not_in_pmc: 0
+not_open_access: 0
+already_processed: 0
+
+Success rate: 100.0%

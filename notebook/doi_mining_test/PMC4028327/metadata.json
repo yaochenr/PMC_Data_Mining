@@ -1,0 +1,42 @@
+{
+  "pmcid": "PMC4028327",
+  "pmid": "24646012",
+  "doi": "10.1021/tx500031p",
+  "title": "Metabolism of a representative oxygenated polycyclic aromatic hydrocarbon (PAH) phenanthrene-9,10-quinone in human hepatoma (HepG2) cells.",
+  "authors": [
+    {
+      "name": "Huang M",
+      "authtype": "Author"
+    },
+    {
+      "name": "Zhang L",
+      "authtype": "Author"
+    },
+    {
+      "name": "Mesaros C",
+      "authtype": "Author"
+    },
+    {
+      "name": "Zhang S",
+      "authtype": "Author"
+    },
+    {
+      "name": "Blaha MA",
+      "authtype": "Author"
+    },
+    {
+      "name": "Blair IA",
+      "authtype": "Author"
+    },
+    {
+      "name": "Penning TM",
+      "authtype": "Author"
+    }
+  ],
+  "journal": "Chemical research in toxicology",
+  "pubdate": "2014 May 19",
+  "abstract": "Exposure to polycyclic aromatic hydrocarbons (PAHs) in the food chain is the major human health hazard associated with the Deepwater Horizon oil spill. Phenanthrene is a representative PAH present in crude oil, and it undergoes biological transformation, photooxidation, and chemical oxidation to produce its signature oxygenated derivative, phenanthrene-9,10-quinone. We report the downstream metabolic fate of phenanthrene-9,10-quinone in HepG2 cells. The structures of the metabolites were identified by HPLC–UV–fluorescence detection and LC–MS/MS. O-mono-Glucuronosyl-phenanthrene-9,10-catechol was identified, as reported previously. A novel bis-conjugate, O-mono-methyl-O-mono-sulfonated-phenanthrene-9,10-catechol, was discovered for the first time, and evidence for both of its precursor mono conjugates was obtained. The identities of these four metabolites were unequivocally validated by comparison to authentic enzymatically synthesized standards. Evidence was also obtained for a minor metabolic pathway of phenanthrene-9,10-quinone involving bis-hydroxylation followed by O-mono-sulfonation. The identification of 9,10-catechol conjugates supports metabolic detoxification of phenanthrene-9,10-quinone through interception of redox cycling by UGT, COMT, and SULT isozymes and indicates the possible use of phenanthrene-9,10-catechol conjugates as biomarkers of human exposure to oxygenated PAH.",
+  "keywords": [],
+  "download_date": "2026-05-21T18:57:15.278182",
+  "relevance_score": null
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "prp2281-fig-0001",
+    "caption": "Chemical structure of [ 14 C]‐dasotraline ( SEP ‐225289). *, 14 C‐labeled",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g001.jpg",
+    "alt_text": "Figure 1",
+    "local_image_path": "images/prp2281-fig-0001_PRP2-5-e00281-g001.jpg"
+  },
+  {
+    "id": "prp2281-fig-0002",
+    "caption": "Mean (±SD, N = 7) cumulative percent of radioactive dose recovered in urine and feces at specified intervals after a single oral dose of [ 14 C]‐dasotraline to healthy male subjects (mean dose: 6.08 mg and 110 μ Ci).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g002.jpg",
+    "alt_text": "Figure 2",
+    "local_image_path": "images/prp2281-fig-0002_PRP2-5-e00281-g002.jpg"
+  },
+  {
+    "id": "prp2281-fig-0003",
+    "caption": "Mean (±SD, N = 7) concentrations of radioactivity in blood and plasma at selected time points.",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g003.jpg",
+    "alt_text": "Figure 3",
+    "local_image_path": "images/prp2281-fig-0003_PRP2-5-e00281-g003.jpg"
+  },
+  {
+    "id": "prp2281-fig-0004",
+    "caption": "Proposed metabolic pathways of dasotraline ( SEP ‐225289) in humans. *, only detected by MS",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g004.jpg",
+    "alt_text": "Figure 4",
+    "local_image_path": "images/prp2281-fig-0004_PRP2-5-e00281-g004.jpg"
+  },
+  {
+    "id": "prp2281-fig-0005",
+    "caption": "Representative LC radio‐chromatograms of pooled 4‐h (A), 24‐h (B), and 120‐h (C) human plasma samples across 7 subjects, and the AUC ‐pool (0–504 h; D) from one subject (Subject 004) ( HPLC Method 1).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g005.jpg",
+    "alt_text": "Figure 5",
+    "local_image_path": "images/prp2281-fig-0005_PRP2-5-e00281-g005.jpg"
+  },
+  {
+    "id": "prp2281-fig-0006",
+    "caption": "Representative LC radio‐chromatograms of pooled 0–432 h urine (A), 0–504 h feces (B) across Subjects 002 to 008 ( HPLC Method 1), and separation of M41 (oxime) from (S)‐Tetralone using HPLC Method 2 (C).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g006.jpg",
+    "alt_text": "Figure 6",
+    "local_image_path": "images/prp2281-fig-0006_PRP2-5-e00281-g006.jpg"
+  },
+  {
+    "id": "prp2281-fig-0007",
+    "caption": "MS / MS Spectral data (only shown 35 Cl isotope ESI + peak) (A) and proposed fragmentation pathways of dasotraline‐oxime, that is, M41 (B).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g007.jpg",
+    "alt_text": "Figure 7",
+    "local_image_path": "images/prp2281-fig-0007_PRP2-5-e00281-g007.jpg"
+  },
+  {
+    "id": "prp2281-fig-0008",
+    "caption": "MS / MS Spectral data (only shown 35 Cl isotope ESI – peak) (A) and proposed fragmentation pathways of sulfate of dasotraline‐oxime, that is, M42 (B).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g008.jpg",
+    "alt_text": "Figure 8",
+    "local_image_path": "images/prp2281-fig-0008_PRP2-5-e00281-g008.jpg"
+  },
+  {
+    "id": "prp2281-fig-0009",
+    "caption": "MS / MS Spectral data (only shown 35 Cl isotope ESI + peak) (A) and proposed fragmentation pathways of glucuronide of dasotraline‐oxime, that is, M43 (B).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g009.jpg",
+    "alt_text": "Figure 9",
+    "local_image_path": "images/prp2281-fig-0009_PRP2-5-e00281-g009.jpg"
+  },
+  {
+    "id": "prp2281-fig-0010",
+    "caption": "MS / MS Spectral data (only shown 35 Cl isotope ESI + peak) (A) and proposed fragmentation pathways of glucuronide of N ‐hydroxylated dasotraline, that is, M35 (B).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g010.jpg",
+    "alt_text": "Figure 10",
+    "local_image_path": "images/prp2281-fig-0010_PRP2-5-e00281-g010.jpg"
+  },
+  {
+    "id": "prp2281-fig-0011",
+    "caption": "Arithmetic mean plasma concentration profiles of dasotraline (ng/ mL ) and TRA in plasma (ng‐Eq/ mL ) in linear (A) and semi‐logarithmic scale (B).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g011.jpg",
+    "alt_text": "Figure 11",
+    "local_image_path": "images/prp2281-fig-0011_PRP2-5-e00281-g011.jpg"
+  },
+  {
+    "id": "prp2281-fig-0012",
+    "caption": "Mean plasma (pooled same time points across 7 subjects) concentration (ng‐Eq/ mL ) – time profiles of TRA , dasotraline, sulfate of dasotraline‐oxime (M42) and glucuronide of dasotraline‐oxime (M43).",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g012.jpg",
+    "alt_text": "Figure 12",
+    "local_image_path": "images/prp2281-fig-0012_PRP2-5-e00281-g012.jpg"
+  },
+  {
+    "id": "nlm-graphic-3",
+    "caption": "",
+    "image_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5461651.1/PRP2-5-e00281-g013.jpg",
+    "alt_text": "",
+    "local_image_path": "images/nlm-graphic-3_PRP2-5-e00281-g013.jpg"
+  }
+]

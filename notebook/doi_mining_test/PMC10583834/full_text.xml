@@ -1,0 +1,918 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xml:lang="EN" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Chem Res Toxicol</journal-id><journal-id journal-id-type="iso-abbrev">Chem Res Toxicol</journal-id><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-id journal-id-type="publisher-id">tx</journal-id><journal-title-group><journal-title>Chemical Research in Toxicology</journal-title></journal-title-group><issn pub-type="ppub">0893-228X</issn><issn pub-type="epub">1520-5010</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>ACS AuthorChoice</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10583834</article-id><article-id pub-id-type="pmcid-ver">PMC10583834.1</article-id><article-id pub-id-type="pmcaid">10583834</article-id><article-id pub-id-type="pmcaiid">10583834</article-id><article-id pub-id-type="pmid">37769118</article-id><article-id pub-id-type="doi">10.1021/acs.chemrestox.3c00192</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Consideration
+of Nevirapine Analogs To Reduce Metabolically
+Linked Hepatotoxicity: A Cautionary Tale of the Deuteration Approach</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8059-8035</contrib-id><name name-style="western"><surname>Kandel</surname><given-names initials="SE">Sylvie
+E.</given-names></name><xref rid="notes1" ref-type="notes">†</xref></contrib><contrib contrib-type="author" id="ath2"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0004-0020-9805</contrib-id><name name-style="western"><surname>Gracey</surname><given-names initials="EG">Emily G.</given-names></name><xref rid="notes1" ref-type="notes">†</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath3"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0794-2263</contrib-id><name name-style="western"><surname>Lampe</surname><given-names initials="JN">Jed N.</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><aff id="aff1">Department of Pharmaceutical
+Sciences, Skaggs School of Pharmacy, <institution>University
+of Colorado</institution>, Aurora, Colorado 80045, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>jed.lampe@cuanschutz.edu</email>. Tel.: <phone>(303) 724-3397</phone>. Fax: <fax>(303) 724-7266</fax>.</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>09</month><year>2023</year></pub-date><pub-date pub-type="collection"><day>16</day><month>10</month><year>2023</year></pub-date><volume>36</volume><issue>10</issue><issue-id pub-id-type="pmc-issue-id">447521</issue-id><fpage>1631</fpage><lpage>1642</lpage><history><date date-type="received"><day>30</day><month>06</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>28</day><month>09</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>28</day><month>09</month><year>2024</year></date></event><event event-type="pmc-released-under-embargo"><date><day>19</day><month>10</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-09-28 00:25:30.130"><day>28</day><month>09</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>© 2023 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2023</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>Permits non-commercial access and re-use, provided that author attribution and integrity are maintained; but does not permit creation of adaptations or other derivative works (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="tx3c00192.pdf"/><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ab-tgr1" position="float" orientation="portrait" xlink:href="tx3c00192_0011.jpg"/></p><p>Idiosyncratic drug
+reactions (IDRs) in their most deleterious
+form
+can lead to serious medical complications and potentially fatal events.
+Nevirapine (NVP), still widely used in developing countries for combinatorial
+antiretroviral and prophylactic therapies against HIV infection, represents
+a prototypical example of IDRs causing severe skin rashes and hepatotoxicity.
+Complex metabolic pathways accompanied by production of multiple reactive
+metabolites often complicate our understanding of IDR’s origin.
+While assessment of NVP analogs has helped characterize the pathways
+involved in IDRs for NVP, which are largely driven by metabolism at
+the 12-methyl position, it has yet to be investigated if some of these
+analogs could be valuable replacement drugs with reduced reactive
+metabolite properties and drug–drug interaction (DDI) risks.
+Here, we evaluated a set of eight NVP analogs, including the deuterated
+12-d<sub>3</sub>-NVP and two NVP metabolites, for their efficacy and
+inhibitory potencies against HIV reverse transcriptase (HIV-RT). A
+subset of three analogs, demonstrating &gt;85% inhibition for HIV-RT,
+was further assessed for their hepatic CYP induction-driven DDI risks.
+This led to a closer investigation of the inactivation properties
+of 12-d<sub>3</sub>-NVP for hepatic CYP3A4 and a comparison of its
+propensity in generating reactive metabolite species. The metabolic
+shift triggered with 12-d<sub>3</sub>-NVP, increasing formation of
+the 2-hydroxy and glutathione metabolites, emphasized the importance
+of the dynamic balance between induction and metabolism-dependent
+inactivation of CYP3A4 and its impact on clearance of NVP during treatment.
+Unfortunately, the strategy of incorporating deuterium to reduce NVP
+metabolism and production of the electrophile species elicited opposite
+results, illustrating the great challenges involved in tackling IDRs
+through deuteration.</p></abstract><funding-group><award-group><funding-source><institution-wrap><institution>U.S. Department of Health and Human Services</institution><institution-id institution-id-type="doi">10.13039/100000060</institution-id></institution-wrap></funding-source><award-id>R01AI150494</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>tx3c00192</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>tx3c00192</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Nevirapine (NVP), the first approved nonnucleoside
+reverse transcriptase
+inhibitor (NNRTI) targeting the human immunodeficiency virus (HIV),
+is still prescribed as part of the combinatorial antiretroviral therapy
+(cART) regimen to treat HIV-1 infection, although second-generation
+NNRTIs with increased safety profiles and lower propensities for viral
+resistance are gradually replacing it.<sup><xref ref-type="bibr" rid="ref1">1</xref>−<xref ref-type="bibr" rid="ref4">4</xref></sup> Employed for prophylactic therapy, NVP is
+also used with sensitive population groups, such as pregnant people,
+breastfeeding mothers, or neonates, yet more frequently in developing
+countries where newer generation NNRTI drugs may not be as readily
+available due to cost constraints.<sup><xref ref-type="bibr" rid="ref5">5</xref>−<xref ref-type="bibr" rid="ref8">8</xref></sup> Undeniably, prophylactic HIV treatment during
+childbirth and the neonatal period has positively impacted the prevention
+of its perinatal transmission worldwide. In the U.S., NVP is recommended
+as one of the preferred initial regimens for HIV-naive newborns of
+&lt;14 days of age.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> However, NVP treatment
+is associated with severe adverse effects including idiosyncratic
+life-threatening skin reactions and liver toxicities, which prompted
+the U.S. Food and Drug Administration (FDA) in 2000 to issue a black
+box warning regarding its potential for fatal adverse events.<sup><xref ref-type="bibr" rid="ref10">10</xref>−<xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>NVP skin and liver toxicities are believed to emerge primarily
+from metabolism at the 12-methyl position through hepatic cytochrome
+P450 (CYP) oxidation that can either yield to the 12-hydroxy-NVP (12OH-NVP)
+product or formation of a reactive quinone methide species (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>).<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> The quinone methide electrophile can then covalently adduct protein
+nucleophilic groups, which may lead to hepatotoxicity. The 12OH-NVP
+metabolite can be further oxidized to the 4-carboxy-NVP (4-COOH-NVP)
+or sulfated by the sulfotransferase 1A1 (SULT1A1) to the 12-sulfoxy-NVP
+metabolite.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> Interestingly, both the 12OH-NVP and 12-sulfoxy-NVP have been linked
+to the NVP-induced skin rashes usually observed a few weeks after
+starting NVP treatment, which frequently result in NVP therapy discontinuation.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup>,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Indeed, the NVP phase I metabolic
+pathway (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>)
+is complex involving several CYP enzymes including CYP3A4, CYP2B6,
+and CYP2D6 and producing four primary oxidative metabolites, the 2-,
+3-, 8-, and 12-hydroxy-NVP, detected in vivo as glucuronide conjugates
+in human urine.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> A NVP CYP reaction phenotyping
+study by Erickson et al. associated the formation of the 2- (2OH-NVP)
+and 3-hydroxy-NVP (3OH-NVP) metabolites with CYP3A and CYP2B6 isoforms,
+respectively.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> From that same study, CYP2B6,
+CYP2D6, and CYP3A4 were linked to the 8-hydroxy-NVP (8OH-NVP), usually
+considered as a less significant metabolite, while the 12OH-NVP was
+strongly associated with the CYP3A4 isoform. Furthermore, several
+studies using an analog of NVP with deuterium substitution of the
+12-methyl hydrogens (12-d<sub>3</sub>-NVP) in order to restrict metabolism
+at the 12-carbon position have shown improvement of skin rash in rodents
+and increased mouse hepatic cell viability, reinforcing the association
+between metabolism at the 12-methyl position and increased risk of
+adverse drug reactions.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> Conversely, other studies
+have argued for the formation of a reactive 2,3-epoxide intermediate
+that would instead react to form a 3-glutathione-NVP (NVP-3-GSH) product,
+which would then degrade to its mercapturic form.<sup><xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> Two mercapturic derivatives have been detected in human urine from
+HIV-positive patients under NVP treatment and identified as the 3-
+and 12-conjugates based on 1D <sup>1</sup>H and 2D nuclear magnetic
+resonance (NMR) structural characterization of the corresponding rat
+bile metabolites, with the 12-mercapturic conjugate present only at
+very low abundance in human urine compared to the 3-conjugate derivative.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Although the formation of the 3-mercapturic
+conjugate is unarguable since it was detected in vivo, the precise
+metabolic pathway, in particular, the CYP isoform(s) involved in the
+formation of the epoxide leading to the glutathione (GSH) conjugate,
+is still unclear.</p><fig id="fig1" position="float" orientation="portrait"><label>Figure 1</label><caption><p>Proposed metabolic scheme of NVP with the associated CYP-metabolizing
+enzymes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr1" position="float" orientation="portrait" xlink:href="tx3c00192_0001.jpg"/></fig><p>While the intricate NVP metabolic
+pathway can lead
+to multiple
+potential reactive metabolites, enhancing the risk for adverse events,
+drug–drug interaction (DDI) is another aspect of NVP that needs
+to be accounted for. Effectively, NVP, extensively metabolized by
+hepatic CYP enzymes, is not only a CYP3A4 inhibitor but also a CYP
+inducer.<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref25">25</xref></sup> CYP3A4 inactivation kinetics by NVP in human liver
+microsomes (HLMs) have shown time- and concentration-dependency for
+inactivation and were characterized by a <italic toggle="yes">K</italic><sub>I</sub> of 31 μM and a <italic toggle="yes">k</italic><sub>inact</sub> of 0.029
+min<sup>–1</sup>.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> Inactivation
+of CYP3A4 is thought to be mediated by the NVP-reactive quinone methide
+electrophile and its direct covalent binding with cysteine 239 in
+the CYP3A4 F/G loop region.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> Interestingly,
+no hepatic CYP drug-metabolizing enzymes other than CYP3A4 have been
+shown to be inhibited by NVP.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> In parallel
+to the CYP3A4 inactivation, NVP can also induce CYP3A4 and CYP2B6
+expression and actually result in increased oral clearance of the
+NNRTI after several weeks of treatment.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> The induction effect of NVP has been demonstrated to have pharmacokinetic
+(PK) interactions with saquinavir, indinavir, and methadone resulting
+in significant decreases of their plasma-drug area under the curve
+(AUC).<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> According to these PK studies,
+including the PK characteristics observed for NVP dosing itself and
+the associated increase in clearance, the induction component of NVP
+seems to prevail over inhibition.</p><p>Evidence for sex differences
+in the NVP toxicity profile has also
+been reported with women presenting a 7-fold increased risk for severe
+rash reactions.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup> Furthermore, the 12OH-NVP metabolite
+has been detected at higher proportions in women, reinforcing the
+association for higher toxicity risk in women.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> In consideration of these findings and the recommendations
+for use of NVP in some of the most vulnerable patient groups, further
+assessments of NVP analogs to limit reactive electrophile formation
+through metabolism, and thus NVP-linked toxicities, would be valuable.
+The use of deuteration has shown great success in limiting metabolic
+conversion, with the first deuterated drug, deutetrabenazine, recently
+receiving market approval by the FDA.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> The 12-d<sub>3</sub>-NVP has previously demonstrated enhanced safety
+properties with decreased skin rash in rodents and improved hepatocyte
+viability.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> Here, we evaluated a set of eight
+NVP analogs (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>) for their inhibitory potencies against the HIV reverse transcriptase
+(HIV-RT), which included the deuterated analog 12-d<sub>3</sub>-NVP.
+A subset of the NVP analogs showing the highest HIV-RT inhibition
+potency were further analyzed for their DDI risks by measuring the
+induction and inactivation propensity for the hepatic CYP3A4 enzyme.</p><table-wrap id="tbl1" position="float" orientation="portrait"><label>Table 1</label><caption><title>Inhibition Screening of NVP and NVP
+Analogs (10 μM) for HIV Reverse Transcriptase<xref rid="t1fn1" ref-type="table-fn">a</xref></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr2" position="float" orientation="portrait" xlink:href="tx3c00192_0010.jpg"/><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Percent inhibition values represent
+the mean of three replicates ± standard deviation (SD). NVP,
+nevirapine; HIV-RT, HIV reverse transcriptase.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec2"><title>Experimental Procedures</title><sec id="sec2.1"><title>Materials</title><p>NVP, the 2OH-NVP standard, and eight NVP
+analogs, 12-d<sub>3</sub>-NVP, 2-nitro-NVP, 3-bromo-NVP, 2-amino-NVP,
+3-ethenyl-NVP, 4-COOH-NVP, 12OH-NVP, and NVP-12-(<italic toggle="yes">n</italic>-proylidenyl), were purchased from Toronto Research Chemicals (Toronto,
+ON). Stock solutions of test compounds were prepared in dimethyl sulfoxide
+(DMSO), acetonitrile (ACN), or methanol. Rifampicin (RIF), glucose-6-phosphate
+dehydrogenase, midazolam (MDZ), 4-hydroxy-midazolam (4OH-MDZ), and
+the internal standard α-hydroxymidazolam-d<sub>4</sub> were
+acquired from Sigma-Aldrich (St. Louis, MO). Glucose-6-phosphate,
+β-nicotinamide adenine dinucleotide phosphate (NADP<sup>+</sup>), and reduced <sc>l</sc>-glutathione were obtained from Alfa Aesar
+(Haverhill, MA). The metabolite standard 1′-hydroxy-midazolam
+(1’OH-MDZ) was purchased from Cayman Chemical (Ann Arbor, MI).
+All other chemicals and solvents (reagent or analytical grade) were
+purchased from standard suppliers. CYP3A4 Supersomes (catalog number:
+456202) were purchased from Corning (Corning, NY) with human cytochrome
+P450 reductase and cytochrome <italic toggle="yes">b</italic><sub>5</sub> coexpressed
+in Sf9 insect cells using a baculovirus expression system. CYP2B6
+bactosomes (catalog number: CYP/EZ041) with coexpressed human cytochrome
+P450 reductase and supplemented with purified human cytochrome <italic toggle="yes">b</italic><sub>5</sub> were purchased from Cypex Ltd. (Dundee, Scotland.,
+UK). Pooled mixed gender HLMs (catalog number: H2610) were obtained
+from XenoTech, LLC/BioIVT (Kansas City, KS).</p></sec><sec id="sec2.2"><title>Reverse Transcriptase Inhibition
+Assays</title><p>Inhibition
+of HIV-RT by NVP and its chemical analogs was measured using an ELISA-based
+colorimetric RT assay from Roche (catalog number: 11468120910) (Basel,
+Switzerland). The manufacturer’s protocol was followed, with
+the first two incubation steps combined and taking place in the precoated
+microplate modules. All NVP test compounds were added at 1% DMSO,
+except for the 12-d<sub>3</sub>-NVP added at 4% ACN. An initial screen
+at 10 μM was performed for each compound. Test compounds were
+incubated with recombinant HIV-RT and reaction mixture (containing
+nucleotides and template) for 1 h at 37 °C. Wells were
+washed, and the antibody conjugated to peroxidase was added and incubated
+further for 1 h at 37 °C. The wells were washed again, and the
+peroxidase substrate was added and incubated for 20 min at room temperature.
+Absorbance from the colorimetric product was measured at 405 nm on
+a Tecan Infinite M Plex plate reader (Männedorf, Switzerland).
+Percent inhibition was calculated using the corresponding solvent
+control as a reference for the 100% control activity. Dose–response
+curves for NVP, a subset of three analogs, chosen based on their inhibition
+performance in the screen, and 12OH-NVP were carried out following
+the same procedure as the screening experiments but using adjusted
+ranges of test compound concentrations. Percent of the remaining HIV-RT
+activity was calculated based on the 100% control activity from the
+solvent control, and values were plotted against the NVP test compound
+concentrations and analyzed with GraphPad Prism nonlinear regression
+(GraphPad Prism software, v. 9.5.1; San Diego, CA). All experiments
+were performed in triplicate.</p></sec><sec id="sec2.3"><title>Primary Human Hepatocyte
+Induction Assays for NVP and Its Analogs</title><p>Preplated, cryopreserved
+primary human hepatocytes (10 donor pool,
+mixed gender, seeded at 1.3 × 10<sup>6</sup> cells/mL) were purchased
+from XenoTech, LLC/BioIVT (catalog number: HPCH10<sup>+</sup>; Kansas
+City, KS). Upon receipt, the medium was changed, and cells were maintained
+in a humidified incubator at 37 °C and 5% CO<sub>2</sub> for 24 h. The test compounds, NVP, 12-d<sub>3</sub>-NVP, 2-nitro-NVP,
+and 3-bromo-NVP, were dissolved in DMSO and diluted in OptiCulture
+media (XenoTech, LLC/BioIVT) to the final concentrations of 25 and
+100 μM (0.1% v/v final DMSO). Controls included 10 μM
+RIF and a DMSO solvent control. The hepatocytes were dosed with fresh
+media containing the test compounds or vehicle every 24 h for 3 days.
+Between three to six biological replicates were included for each
+treatment. After the 72-h treatment, the hepatocytes were incubated
+with 3 μM midazolam for 30 min at 37 °C and 5% CO<sub>2</sub>. Supernatant aliquots (150 μL) were then collected,
+and the same volume of methanol containing the internal standard α-hydroxymidazolam-d<sub>4</sub> (10 ng/mL) was added. After centrifugation, the MDZ supernatants
+were analyzed by liquid chromatography tandem mass spectrometry (LC-MS/MS)
+for relative quantification of the metabolite 1’OH-MDZ.</p><p>The remaining hepatocytes were washed with phosphate-buffered saline
+(PBS) solution, and total RNA was isolated from each well with the
+ThermoFisher PureLink RNA Mini kit (Waltham, MA) or the Qiagen RNeasy
+Mini kit (Hilden, Germany). Manufacturer protocols were followed,
+with the inclusion of the DNase step. The end-product RNA was eluted
+in nuclease-free water and RNA concentrations and purity were determined
+based on the absorbance at 260 and 280 nm using the NanoQuant plate
+with the Tecan Infinite M Plex plate reader. cDNA was prepared from
+purified RNA (40–750 ng) using the iScript Reverse Transcriptase
+Supermix kit from Bio-Rad (Hercules, CA) following the manufacturer
+protocol. Quantitative polymerase chain reaction (qPCR) was performed
+in duplicate on a Bio-Rad CFX96 instrument with predesigned Taqman
+probes (Thermo Fisher, Waltham, MA) for CYP3A4 (Hs00430021_m1), CYP2B6
+(Hs03044634_m1), and the GAPDH reference gene (Hs02786624_g1). The
+fold changes in mRNA levels were calculated via the ΔΔCt
+method. To assess cell health, the hepatocyte monolayer was examined
+visually daily, and lactate dehydrogenase (LDH) release was measured
+with the LDH-Glo cytotoxicity kit from Promega (Madison, WI). At 72
+h, supernatant aliquots were taken and diluted 100-fold in LDH storage
+buffer (200 mM Tris-HCl pH 7.3, 10% glycerol, 1% bovine serum albumin),
+and an equal amount of LDH detection reagent was added and incubated
+for 40 min. Luminescent signal was measured with a Tecan Infinite
+M Plex plate reader. Normalized LDH release for all treatments was
+calculated compared to that of the DMSO control.</p></sec><sec id="sec2.4"><title>NVP and 12-d<sub>3</sub>-NVP IC<sub>50</sub> Shift for Midazolam
+1′-Hydroxylation by Recombinant CYP3A4 Enzyme</title><p>IC<sub>50</sub> shift assays were carried out to determine the time-dependent
+inactivation kinetics of NVP and 12-d<sub>3</sub>-NVP for the CYP3A4
+recombinant enzyme. NVP and 12-d<sub>3</sub>-NVP (2.5–450 μM)
+were preincubated with recombinant CYP3A4 Supersomes for 0 (with NADPH)
+or 30 min (with and without NADPH). Incubations (200 μL) were
+performed in triplicate at 37 °C with 2 pmol/mL of CYP3A4 enzyme
+in 100 mM potassium phosphate buffer (pH 7.4) and 3 mM MgCl<sub>2</sub>. MDZ (1 μM) was used as the probe substrate and probe reactions
+were initiated with the addition of MDZ, or MDZ plus NADPH for the
+30 min preincubation without cofactor. The NADPH cofactor, prepared
+as a regenerating system mix, was added to obtain final incubation
+concentrations of 1 mM NADP<sup>+</sup>, 10 mM glucose-6-phosphate,
+and 2 IU/mL glucose-6-phosphate dehydrogenase. After 5 min, MDZ reactions
+were stopped by the addition of an equal volume of ice-cold methanol
+containing the internal standard α-hydroxymidazolam-d<sub>4</sub> (60 ng/mL). Precipitated proteins were collected by centrifugation
+for 20 min at 2000 × <italic toggle="yes">g</italic> and 4 °C, and supernatants
+were analyzed by LC-MS/MS for formation of the 1’OH-MDZ metabolite.
+The solvent control (2% methanol, v/v) served as reference for the
+100% activity.</p></sec><sec id="sec2.5"><title>NVP and 12-d<sub>3</sub>-NVP Inactivation
+Kinetics for Recombinant
+CYP3A4 Enzyme</title><p>NVP and 12-d<sub>3</sub>-NVP time- and concentration-dependent
+inhibition assays were performed for the recombinant CYP3A4 enzyme.
+Preincubations (300 μL) with NVP and 12-d<sub>3</sub>-NVP (5–400
+μM; 2% methanol, v/v) were carried out using 20 pmol/mL CYP3A4
+Supersomes in 100 mM potassium phosphate buffer (pH 7.4) and 3 mM
+MgCl<sub>2</sub>. Preincubation reactions were initiated by the addition
+of the NADPH-regenerating system mix. After 0, 6, 12, and 18 min at
+37 °C, a 20-μL aliquot of the CYP3A4 preincubation was
+transferred to a MDZ probe reaction to yield a 200-μL incubation
+consisting of 10 μM MDZ, 100 mM potassium phosphate buffer (pH
+7.4), 3 mM MgCl<sub>2</sub>, and the NADPH-regenerating system mix.
+The MDZ incubations were stopped after 4 min at 37 °C by the
+addition of ice-cold methanol (200 μL) containing 20 ng/mL of
+the α-hydroxymidazolam-d<sub>4</sub> internal standard. Incubations
+without the NADPH-regenerating system mix served as negative controls.
+Precipitated proteins were collected by centrifugation for 20 min
+at 2000 × <italic toggle="yes">g</italic> and 4 °C and resulting supernatants
+were transferred to high performance liquid chromatography (HPLC)
+vials and aliquots of 2 μL were analyzed for relative
+quantification by LC-MS/MS of the 1’OH-MDZ metabolite.</p></sec><sec id="sec2.6"><title>Analytical
+Method for MDZ Hydroxylation</title><p>Formation of
+the 1’OH-MDZ metabolite in human hepatocytes and recombinant
+CYP3A4 incubations was determined by LC-MS/MS analysis with a Waters
+Acquity Ultra-Performance Liquid Chromatography (UPLC) system interfaced
+by electrospray ionization with a Waters Xevo TQ-S micro tandem quadrupole
+mass spectrometer (Waters Corp., Milford, MA). The following source
+conditions were applied: 0.5 kV for the capillary voltage, 150 °C
+for the source temperature, 500 °C for the desolvation temperature,
+and 900 L/h for the desolvation gas flow. Multiple-reaction monitoring
+(MRM) scan type in positive ionization mode was used to detect MDZ,
+1’OH-MDZ, and the α-hydroxymidazolam-d<sub>4</sub> internal
+standard. The following mass transitions (including collision energies,
+CE, and cone voltages, CV) were used for the respective analytes:
+326 &gt; 291 (CE = 28 V, CV = 10 V) for MDZ, 342 &gt; 203 (CE = 28
+V, CV
+= 15 V) for 1’OH-MDZ, and 346 &gt; 203 (CE = 26 V, CV = 25
+V)
+α-hydroxymidazolam-d<sub>4</sub>. The analytes were separated
+on a Waters BEH C18 column (1.7 μm, 2.1 mm × 50 mm) by
+flowing water and methanol with 0.1% formic acid at 0.5 mL/min and
+using the following gradient: 10% organic held for 0.5 min, increased
+to 98% over 2.5 min, and held at 98% for 1 min. The MS peaks were
+integrated using the QuanLynx software (version 4.1, Waters Corp.,
+Milford, MA) and the analyte/internal standard peak area ratios were
+used for relative quantification.</p></sec><sec id="sec2.7"><title>IC<sub>50</sub> Shift and
+Inactivation Kinetic Analysis</title><p>For the NVP and 12-d<sub>3</sub>-NVP IC<sub>50</sub> experiments
+with the recombinant CYP3A4 enzyme, the mean analyte/internal standard
+peak area ratio for the 1’OH-MDZ metabolite was determined
+for the solvent control samples and was referred to as 100% control
+activity to calculate the percent remaining activity in samples containing
+increasing concentrations of NVP or its deuterated analog. GraphPad
+Prism software was used for the dose–response curve fitting.
+In addition, a fold-shift of &gt;1.5 was indicative of a time-dependent
+inhibitor when comparing the IC<sub>50</sub> values obtained after
+0 and 30 min (without NADPH) preincubation or a metabolism-dependent
+inactivator (MDI) when comparing the IC<sub>50</sub> values obtained
+after 30 min preincubation without and with NADPH.<sup><xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> The inactivation kinetic data were analyzed using the standard replot
+method, although other comparable modeling methods have recently emerged
+for determination of the inactivation kinetic parameters.<sup><xref ref-type="bibr" rid="ref34">34</xref>−<xref ref-type="bibr" rid="ref37">37</xref></sup> The CYP3A4 percent remaining activity was calculated for each preincubation
+time for the different inhibitor concentration tested and was based
+on the peak area ratios of 1’OH-MDZ/α-hydroxymidazolam-d<sub>4</sub> compared to the matching solvent control peak area ratios
+used as the reference for the 100% activity. The observed inactivation
+rate constant (<italic toggle="yes">k</italic><sub>obs</sub>) was estimated using
+linear fit of the mean natural logarithm of the remaining activity
+versus the preincubation time. The inactivation constants <italic toggle="yes">k</italic><sub>inact</sub> and <italic toggle="yes">K</italic><sub>I</sub> were
+determined based on the <italic toggle="yes">k</italic><sub>obs</sub> versus the
+NVP test compound concentration in the preincubation using GraphPad
+Prism for curve fitting. Furthermore, the rate of covalent modification
+was calculated based on the inactivation constant ratio of <italic toggle="yes">k</italic><sub>inact</sub> over <italic toggle="yes">K</italic><sub>I</sub>, as
+previously described by Strelow.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup></p></sec><sec id="sec2.8"><title>NVP and
+12-d<sub>3</sub>-NVP Reactive Metabolite Glutathione
+Trapping Assays</title><p>Formation of the hydroxy and reactive metabolites
+by the recombinant CYP3A4 and CYP2B6 was assessed for NVP and its
+deuterated analog 12-d<sub>3</sub>-NVP by conducting glutathione trapping
+experiments. Both compounds (50 or 100 μM) were incubated with
+100 pmol/mL recombinant CYP enzyme in 100 mM potassium phosphate
+buffer (pH 7.4), 3 mM MgCl<sub>2</sub>, and 1 mM reduced <sc>l</sc>-glutathione (GSH). Incubations with 1 mg/mL adult pooled HLMs were
+also carried out. All reactions were initiated by the addition of
+the NADPH-regenerating system mix. After 60 min at 37 °C,
+incubations were stopped by the addition of the same volume of cold
+methanol (alternatively, reactions were stopped by the addition of
+acetic acid at 2% final concentration). For experiments requiring
+relative quantification, an internal standard, 4OH-MDZ (1 μM),
+was added to the methanol stop solution. Precipitated proteins were
+then collected by centrifugation for 20 min at 2000 × <italic toggle="yes">g</italic> and 4 °C and resulting supernatants were transferred
+to HPLC vials for metabolite identification and relative quantification
+using an LC-UV-MS instrument.</p></sec><sec id="sec2.9"><title>Analytical Method for NVP
+and 12-d<sub>3</sub>-NVP Metabolites
+Detected in Glutathione-Trapping Reactions</title><p>The same Waters
+LC-MS instrumentation described above was used for metabolite identification,
+except for a Waters Acquity PDA detector inserted inline in front
+of the mass spectrometer instrument to measure absorbance from NVP,
+12-d<sub>3</sub>-NVP and their derivatives. The PDA detector covered
+the range between 190 and 500 nm. The following MS source conditions
+were applied: 0.5 kV for the capillary voltage, 150 °C for the
+source temperature, 500 °C for the desolvation temperature, and
+900 L/h for the desolvation gas flow. Multiple positive ionization
+mode scan types (MRM, MSMS, and full scan) were used to detect and
+characterize NVP, 12-d<sub>3</sub>-NVP, and their corresponding metabolites.
+For the MRM scan type, the following mass transitions (including CE
+and CV) were used for the respective analytes: 267 &gt; 107 (CE =
+26
+V, CV = 25 V) for NVP, 283 &gt; 161 (CE = 25 V, CV = 25 V) for 2OH-NVP,
+283 &gt; 242 (CE = 22 V, CV = 25 V) for 3OH-NVP, 283 &gt; 223 (CE
+= 25 V,
+CV = 25 V) for 12OH-NVP, 572 &gt; 443 (CE = 15 V, CV = 20 V) for NVP-GSH,
+270 &gt; 110 (CE = 26 V, CV = 25 V) for 12-d<sub>3</sub>-NVP, 286
+&gt; 161
+(CE = 25 V, CV = 25 V) for 2OH-12-d<sub>3</sub>-NVP, 286 &gt; 245
+(CE
+= 22 V, CV = 25 V) for 3OH-12-d<sub>3</sub>-NVP, 285 &gt; 225 (CE
+= 25
+V, CV = 25 V) for 12OH-12-d<sub>2</sub>-NVP, 575 &gt; 446 (CE = 15
+V,
+CV = 20 V) for 12-d<sub>3</sub>-NVP-GSH, and 342 &gt; 234 (CE = 20
+V,
+CV = 10 V) for 4OH-MDZ (IS). The analytes were separated on a Waters
+BEH C18 column (1.7 μm, 2.1 × 100 mm) by flowing water
+and ACN with 0.1% formic acid at 0.4 mL/min and using the following
+gradient: 2% organic held for 0.5 min, increased to 30% over 5 min,
+then increased to 98% over 1 min, and held at 98% for 1.5 min. UV
+peaks detected at 280 nm were integrated using the QuanLynx software
+(version 4.1, Waters Corp., Milford, MA) and the analyte/internal
+standard peak area ratios were used for relative quantification of
+the NVP and 12-d<sub>3</sub>-NVP metabolites.</p></sec></sec><sec id="sec3"><title>Results</title><sec id="sec3.1"><title>Inhibition
+of HIV Reverse Transcriptase by NVP and NVP Analogs</title><p>In an
+effort to identify NVP analogs that might retain the efficacy
+of the parent compound but demonstrate reduced hepatotoxicity, eight
+commercially available analogs were selected based on their structural
+similarity to the parent drug, but with electron-withdrawing substituents
+at various positions that might potentially limit metabolism at the
+12-position. The eight NVP analogs were first assessed for their ability
+to inhibit HIV-RT. Percent inhibition of HIV-RT was determined for
+NVP and each NVP chemical derivative tested at 10 μM in the
+RT reactions (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>). NVP and 2-nitro-NVP showed the highest HIV-RT inhibition (&gt;97%),
+followed by 12-d<sub>3</sub>-NVP (94.2%) and 3-bromo-NVP (87.6%).
+Additionally, the two human NVP metabolites included in the screening,
+12OH-NVP and 4-COOH-NVP, demonstrated 45.4% and 15.9% inhibition for
+HIV-RT, respectively. In order to determine the inhibition potency
+of the NVP analogs exhibiting &gt;85% inhibition in the screening,
+dose-inhibition
+curve experiments were conducted for NVP, 2-nitro-NVP, 12-d<sub>3</sub>-NVP, and 3-bromo-NVP (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>). An IC<sub>50</sub> value of 0.540 μM was obtained
+for NVP. The inhibition potencies of the 2-nitro-NVP and 12-d<sub>3</sub>-NVP were on the same order of magnitude as NVP with IC<sub>50</sub> values of 0.721 and 0.910 μM, respectively. The IC<sub>50</sub> value for 3-bromo-NVP was about five times higher than that
+of NVP at 2.78 μM. Lastly, the inhibition potency of the human
+12OH-NVP metabolite was tested, and an IC<sub>50</sub> value of 26.5
+μM was determined (Supplemental Information, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf">Figure S1</ext-link>), therefore indicating a weak inhibition activity
+against HIV-RT of the human metabolite.</p><fig id="fig2" position="float" orientation="portrait"><label>Figure 2</label><caption><p>Dose–response
+curves of NVP, 2-nitro-NVP, 12-d<sub>3</sub>-NVP, and 3-bromo-NVP
+against HIV reverse transcriptase. HIV-RT inhibition
+by NVP (A), 2-nitro-NVP (B), 12-d<sub>3</sub>-NVP (C), and 3-bromo-NVP
+(D) was characterized by the following IC<sub>50</sub> value ±
+standard error (with respective coefficient of determination, <italic toggle="yes">R</italic><sup>2</sup>, in parentheses): 0.540 ± 0.055 μM
+(<italic toggle="yes">R</italic><sup>2</sup> = 0.972), 0.721 ± 0.111 μM
+(<italic toggle="yes">R</italic><sup>2</sup> = 0.937), 0.910 ± 0.042 μM
+(<italic toggle="yes">R</italic><sup>2</sup> = 0.989), and 2.78 ± 0.38 μM
+(<italic toggle="yes">R</italic><sup>2</sup> = 0.977), respectively. Each data
+point represents the average of triplicate measurements, with error
+bars representing standard deviations. NVP, nevirapine; HIV-RT, HIV
+reverse transcriptase.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr3" position="float" orientation="portrait" xlink:href="tx3c00192_0002.jpg"/></fig></sec><sec id="sec3.2"><title>Primary Human Hepatocyte
+Induction for NVP and Its Three Most
+Potent Analogs</title><p>A well-known concern with NVP is its propensity
+to induce hepatic drug-metabolizing enzymes potentially impacting
+its own PK, but also that of other coadministered drugs. To assess
+if the NVP analogs characterized in our study (which were potent HIV-RT
+inhibitors) have the same property, human hepatocyte induction experiments
+were carried out at 25 and 100 μM concentrations of NVP or its
+analogs (<xref rid="fig3" ref-type="fig">Figures <xref rid="fig3" ref-type="fig">3</xref></xref>A
+and <xref rid="fig4" ref-type="fig">4</xref>). In general, induction of the CYP3A4
+and CYP2B6 expression was insignificant at the 25 μM concentration,
+except for the 3-bromo-NVP showing 6.5- and 25-fold changes for CYP3A4
+and CYP2B6 mRNA levels, respectively. However, at 100 μM, all
+four drugs showed a significant change in CYP mRNA levels compared
+to the DMSO control. While NVP and 12-d<sub>3</sub>-NVP exhibited
+comparable mRNA fold change for CYP3A4 and CYP2B6, 3-bromo-NVP demonstrated
+further increase in CYP3A4 mRNA fold induction with an 11-fold change
+at 100 μM. The 2-nitro-NVP showed the least induction effect
+for CYP3A4, but a comparable induction effect to NVP with CYP2B6.
+Furthermore, to understand the extent of the mRNA induction on the
+CYP3A4 activity, MDZ 1′-hydroxylation was measured after the
+72-h treatment of the primary human hepatocytes with NVP and the different
+analogs (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>B).
+Interestingly, no significant change in CYP3A4 1′-hydroxylation
+of MDZ was detected, except for the positive control rifampicin and
+the 100 μM 12-d<sub>3</sub>-NVP treatment. A 2.6-fold increase
+in CYP3A4 1′-hydroxylation was determined for the 100 μM
+12-d<sub>3</sub>-NVP treatment. While the 3-bromo-NVP showed the highest
+CYP3A4 mRNA-fold induction at 25 and 100 μM, no change in CYP3A4
+1′-hydroxylation activity was observed in the treated primary
+hepatocytes. In addition, concurrently with the induction experiment,
+the health of the treated primary human hepatocytes was assessed by
+LDH release cytotoxicity assay and showed no signs of toxicity for
+the different treatments (Supplemental Information, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf">Figure S2</ext-link>).</p><fig id="fig3" position="float" orientation="portrait"><label>Figure 3</label><caption><p>Induction effects of NVP and its analogs on CYP3A4 gene
+expression
+and activity in primary human hepatocytes. Fold change of CYP3A4 mRNA
+(A) and midazolam 1′-hydroxylation activity (B) in pooled primary
+human hepatocytes dosed for 72 h with 25 μM and 100 μM
+NVP, 2-nitro-NVP, 12-d<sub>3</sub>-NVP, or 3-bromo-NVP. DMSO and rifampicin
+(10 μM) treatments were used for solvent control and positive
+control for induction, respectively. Bars represent the means of at
+least four biological replicates ± standard deviations. Data
+were analyzed by one-way ANOVA against the DMSO control. Statistical
+differences are shown by **, ***, and **** corresponding to the following
+significance levels: <italic toggle="yes">p</italic> &lt; 0.01, <italic toggle="yes">p</italic> &lt; 0.001, and <italic toggle="yes">p</italic> &lt; 0.0001, respectively. ns,
+not significant; NVP, nevirapine; RIF, rifampicin.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr4" position="float" orientation="portrait" xlink:href="tx3c00192_0003.jpg"/></fig><fig id="fig4" position="float" orientation="portrait"><label>Figure 4</label><caption><p>Induction effects of NVP and its analogs on CYP2B6 gene
+expression
+in primary human hepatocytes. Fold change of CYP2B6 mRNA in pooled
+primary human hepatocytes dosed for 72 h with 25 and 100 μM
+NVP, 2-nitro-NVP, 12-d<sub>3</sub>-NVP, or 3-bromo-NVP. DMSO and rifampicin
+(10 μM) treatments were used for solvent control and positive
+control for induction, respectively. Bars represent the means of at
+least four biological replicates ± standard deviations. Data
+were analyzed by one-way ANOVA against the DMSO control. Statistical
+difference is shown by **** corresponding to the <italic toggle="yes">p</italic> &lt; 0.0001 significance. ns, not significant; NVP, nevirapine;
+RIF, rifampicin.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr5" position="float" orientation="portrait" xlink:href="tx3c00192_0004.jpg"/></fig></sec><sec id="sec3.3"><title>Metabolism-Dependent Inactivation
+of the Recombinant CYP3A4
+by NVP and 12-d<sub>3</sub>-NVP</title><p>The difference between the
+12-d<sub>3</sub>-NVP and NVP treatment on the hepatic CYP3A4 activity
+level compelled us to further characterize the inactivation properties
+of these two compounds for CYP3A4. First, an IC<sub>50</sub> shift
+experiment was carried out to assess the time- and metabolism-dependent
+inhibition potency of NVP and 12-d<sub>3</sub>-NVP using the nondilution
+methodology (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref> and <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>). Unexpectedly,
+12-d<sub>3</sub>-NVP was a stronger inhibitor of CYP3A4 than NVP with
+or without accounting for the preincubation. The time component of
+the inhibition for both NVP and 12-d<sub>3</sub>-NVP was inconsequential
+since the shift between the IC<sub>50</sub> at 0 and 30 min preincubation
+without NADPH was less than 1.5-fold. In contrast, the IC<sub>50</sub> shift determined for the metabolism component was significant with
+5.7- and 3.3-fold shifts for NVP and 12-d<sub>3</sub>-NVP, respectively.
+To further refine the comparison between the metabolism-dependent
+inactivation of CYP3A4 by NVP and 12-d<sub>3</sub>-NVP, inactivation
+kinetic experiments were conducted assessing the remaining CYP3A4
+MDZ 1′-hydroxylation activity with increasing preincubation
+time and inhibitor concentrations. Here, the dilution method was used
+with the standard replot approach. The decrease of activity of the
+recombinant CYP3A4 enzyme was preincubation time-dependent and concentration-dependent
+for both NVP and 12-d<sub>3</sub>-NVP (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>A,B). The derived <italic toggle="yes">k</italic><sub>obs</sub> values with the corresponding inhibitor concentrations
+allowed for the estimation of the following kinetic inactivation constants:
+a <italic toggle="yes">k</italic><sub>inact</sub> and a <italic toggle="yes">K</italic><sub>I</sub> value of 0.148 min<sup>–1</sup> and 168 μM
+for NVP and 0.0977 min<sup>–1</sup> and 112 μM for 12-d<sub>3</sub>-NVP (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref> and <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>C). Although
+the maximum rate of inactivation is markedly lower for 12-d<sub>3</sub>-NVP, the rate of covalent modification calculated by dividing <italic toggle="yes">k</italic><sub>inact</sub> by <italic toggle="yes">K</italic><sub>I</sub> was
+in fact equivalent between NVP and 12-d<sub>3</sub>-NVP (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>).</p><fig id="fig5" position="float" orientation="portrait"><label>Figure 5</label><caption><p>NVP and 12-d<sub>3</sub>-NVP time- and metabolism-dependent inhibition
+of recombinant CYP3A4. Inhibition of CYP3A4-mediated midazolam 1′-hydroxylation
+by NVP (A) and the 12-d<sub>3</sub>-NVP analog (B) was assessed using
+the IC<sub>50</sub> shift assay with the nondilution method. Percent
+of control was determined for increasing drug concentrations and after
+0 and 30 min preincubation with and without the NADPH cofactor. Each
+data point represents the average of triplicate measurements with
+error bars representing standard deviations. The IC<sub>50</sub> and
+IC<sub>50</sub> shift values and coefficients of determination, <italic toggle="yes">R</italic><sup>2</sup>, for the regression model fit obtained for
+NVP and 12-d<sub>3</sub>-NVP inhibition are summarized in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr6" position="float" orientation="portrait" xlink:href="tx3c00192_0005.jpg"/></fig><fig id="fig6" position="float" orientation="portrait"><label>Figure 6</label><caption><p>Time-dependent
+inactivation of CYP3A4 midazolam 1′-hydroxylation
+by NVP and 12-d<sub>3</sub>-NVP. Pseudo-first-order kinetic plots
+for six concentrations of NVP (A) and 12-d<sub>3</sub>-NVP (B) were
+based on the percent CYP3A4 remaining activity versus the preincubation
+time and led to the nonlinear regression fits (C) of the inactivation
+rate constants (<italic toggle="yes">k</italic><sub>obs</sub>) at the six inhibitor
+concentrations assessed. The <italic toggle="yes">K</italic><sub>I</sub> and <italic toggle="yes">k</italic><sub>inact</sub> values were determined to be 168 μM
+and 0.148 min<sup>–1</sup> for NVP and 112 μM and 0.0977
+min<sup>–1</sup> for 12-d<sub>3</sub>-NVP, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr7" position="float" orientation="portrait" xlink:href="tx3c00192_0006.jpg"/></fig><table-wrap id="tbl2" position="float" orientation="portrait"><label>Table 2</label><caption><title>Inhibitory Potency and Inactivation
+Kinetic Parameters of NVP and 12-d<sub>3</sub>-NVP for Midazolam 1′-Hydroxylation
+by the Recombinant CYP3A4 Enzyme<xref rid="t2fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="center" span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th style="border:none;" align="center" colspan="1" rowspan="1">NVP</th><th style="border:none;" align="center" colspan="1" rowspan="1">12-d<sub>3</sub>-NVP</th></tr></thead><tbody><tr><td style="border:none;" align="center" colspan="1" rowspan="1"><bold>IC<sub>50</sub> shift
+assay</bold></td><td colspan="2" rowspan="1">IC<sub>50</sub> ± SE (μM) (<italic toggle="yes">R</italic><sup>2</sup>)</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1">0 min preincubation</td><td style="border:none;" colspan="1" rowspan="1">23.9 ± 2.0 (0.983)</td><td style="border:none;" colspan="1" rowspan="1">11.3 ± 1.9 (0.943)</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1">30 min preincubation (−)
+NADPH</td><td style="border:none;" colspan="1" rowspan="1">30.0 ± 2.8 (0.974)</td><td style="border:none;" colspan="1" rowspan="1">9.38 ± 1.57 (0.948)</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1">30 min preincubation (+)
+NADPH</td><td style="border:none;" colspan="1" rowspan="1">5.30 ± 1.01 (0.935)</td><td style="border:none;" colspan="1" rowspan="1">2.85 ± 0.44 (0.976)</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1">IC<sub>50</sub> shift [(−)NADPH/(+)NADPH]</td><td style="border:none;" colspan="1" rowspan="1">5.7</td><td style="border:none;" colspan="1" rowspan="1">3.3</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1"> </td><td style="border:none;" colspan="1" rowspan="1"> </td><td style="border:none;" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1"><bold>Inactivation assay</bold></td><td style="border:none;" colspan="1" rowspan="1"> </td><td style="border:none;" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1"><italic toggle="yes">K</italic><sub>I</sub> ± SE (μM)</td><td style="border:none;" colspan="1" rowspan="1">168 ± 22</td><td style="border:none;" colspan="1" rowspan="1">112 ± 18</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1"><italic toggle="yes">k</italic><sub>inact</sub> ± SE (min<sup>–1</sup>)</td><td style="border:none;" colspan="1" rowspan="1">0.148 ± 0.009</td><td style="border:none;" colspan="1" rowspan="1">0.0977 ± 0.0061</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1"><italic toggle="yes">R</italic><sup>2</sup></td><td style="border:none;" colspan="1" rowspan="1">0.991</td><td style="border:none;" colspan="1" rowspan="1">0.982</td></tr><tr><td style="border:none;" align="center" colspan="1" rowspan="1"><italic toggle="yes">k</italic><sub>inact</sub>/<italic toggle="yes">K</italic><sub>I</sub> (mM<sup>–1</sup>·min<sup>–1</sup>)</td><td style="border:none;" colspan="1" rowspan="1">0.881</td><td style="border:none;" colspan="1" rowspan="1">0.872</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>NVP, nevirapine;
+SE, standard error.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec3.4"><title>NVP and 12-d<sub>3</sub>-NVP Reactive Metabolite Glutathione
+Trapping</title><p>The metabolism-dependent inactivation of CYP enzymes
+is generally driven by formation of reactive metabolites.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> Thus, in order to understand the impact of deuteration
+at the 12-methyl on the formation of reactive metabolites, GSH trapping
+experiments were conducted with recombinant CYP3A4, CYP2B6, and HLMs. <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref> illustrates the
+UV profiles obtained for the metabolites formed with NVP and 12-d<sub>3</sub>-NVP incubated with 100 pmol/mL recombinant CYP3A4 or CYP2B6.
+The 2- and 12-hydroxy metabolites were detected for both NVP and 12-d<sub>3</sub>-NVP incubations with CYP3A4 and matched the corresponding
+authentic unlabeled standards (Supplemental Information, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf">Figure S3</ext-link>). A third UV peak was detected in both
+NVP and 12-d<sub>3</sub>-NVP incubations at the retention time of
+4.33 min. Full MS and MSMS scans allowed the identification of that
+metabolite as the GSH derivative of NVP and 12-d<sub>3</sub>-NVP,
+respectively (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>). The <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> of 575 and the isotopic
+distribution (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>B) associated with the GSH metabolite detected in the CYP3A4 incubations
+with the 12-d<sub>3</sub>-NVP excluded the possibility for the GSH
+group to be localized on the 12-carbon which would have in fact resulted
+in a <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> of 574 due to the loss
+of one isotope deuterium atom. Indeed, a comparison of the MSMS spectra
+of the GSH metabolites deriving from NVP (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>C) and 12-d<sub>3</sub>-NVP (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>D) showed a mass difference
+of three for several fragment ions, suggesting an intact CD<sub>3</sub> deuterated methyl group. In the proposed fragmentation assignment
+associated with the GSH metabolite MSMS spectra (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>C,D), the GSH adducts are represented
+at the carbon 3-position. While our MSMS data could not warrant this
+specific assignment, the positioning of the GSH was proposed based
+on the previous NMR work by Srivastava et al. in 2010 identifying
+in vivo mercapturic derivatives of NVP.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Furthermore, in our reactive metabolite search, we carefully looked
+for formation of a potential NVP-12-GSH metabolite from NVP and 12-d<sub>3</sub>-NVP, but our UV and MS analyses were infructuous. Incubations
+of NVP and 12-d<sub>3</sub>-NVP with the recombinant CYP2B6 generated
+only one small UV peak at the retention time of 4.64 min (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>B,D). This hydroxy
+metabolite was detected by MS with the MRM 283 &gt; 242 (data not
+shown),
+mass transitions previously employed by Heck et al. in 2020 for the
+3OH-NVP, hence, likely corresponding to the 3-hydroxy metabolite,
+the main metabolite formed by CYP2B6.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> Importantly, no GSH metabolite was detected in the recombinant CYP2B6
+incubations under the conditions tested. Interestingly, the metabolite
+profiles of NVP and 12-d<sub>3</sub>-NVP in HLM incubations closely
+matched the profiles obtained with the recombinant CYP3A4 (Supplemental
+Information, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf">Figure S4</ext-link>). With limited information
+about the effect of the deuteration on the ionization efficiency of
+NVP and its metabolites, relative quantification of the 2-hydroxy,
+12-hydroxy, and GSH metabolites was undertaken for NVP and its deuterated
+analog using the UV absorbance signal (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>). As expected, formation of the 12-hydroxy
+metabolite decreased considerably with the 12-d<sub>3</sub>-NVP. A
+2-fold increase in the 2-hydroxy metabolite was measured with the
+12-d<sub>3</sub>-NVP, signifying a metabolic shift in favor of the
+2-hydroxy metabolite pathway with the 12-methyl deuteration. Most
+remarkably, a similar 2-fold increase in the GSH metabolite was observed
+with the 12-d<sub>3</sub>-NVP, interconnecting to some extent the
+2-hydroxy and GSH pathways.</p><fig id="fig7" position="float" orientation="portrait"><label>Figure 7</label><caption><p>Recombinant CYP3A4 and CYP2B6 metabolite and
+glutathione-trapped
+reactive metabolite screening for NVP and 12-d<sub>3</sub>-NVP. Representative
+UV chromatograms (280 nm) for NVP (A, B) and 12-d<sub>3</sub>-NVP
+(C, D) incubated at 50 μM for 60 min with recombinant CYP3A4
+(A, C) and CYP2B6 (B, D) (100 pmol/mL) in the presence of 1 mM reduced <sc>l</sc>-glutathione and with or without the cofactor NADPH. IS, internal
+standard.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr8" position="float" orientation="portrait" xlink:href="tx3c00192_0007.jpg"/></fig><fig id="fig8" position="float" orientation="portrait"><label>Figure 8</label><caption><p>Glutathione metabolites of NVP and 12-d<sub>3</sub>-NVP
+formed
+by recombinant CYP3A4. MS and MSMS analysis of glutathione metabolites
+formed in recombinant CYP3A4 incubations with NVP (A and C) and 12-d<sub>3</sub>-NVP (B and D). Extracted <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> 572 (A) and 575 (B) chromatograms from full scan MS measurements
+(<italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> 100–1000), including
+the inset for isotopic distribution of the parent ion. MSMS spectra
+for glutathione metabolite of NVP (C) and 12-d<sub>3</sub>-NVP (D)
+detected in CYP3A4 incubations, including the inset with proposed
+fragmentation assignment.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr9" position="float" orientation="portrait" xlink:href="tx3c00192_0008.jpg"/></fig><fig id="fig9" position="float" orientation="portrait"><label>Figure 9</label><caption><p>Quantitation
+by UV of the major NVP and 12-d<sub>3</sub>-NVP metabolites
+formed in the recombinant CYP3A4 glutathione-trapping reactions. The
+2-hydroxy (2OH), 12-hydroxy (12OH), and GSH metabolites formed in
+recombinant CYP3A4 (100 pmol/mL) incubations with NVP or 12-d<sub>3</sub>-NVP (50 μM) were analyzed by LC-UV-MS and quantified
+based on their UV peak signals at 280 nm. Metabolite UV peak area
+ratios were calculated using 4-hydroxy-midazolam as the internal standard.
+Bars represent the mean of three replicates ± standard deviations.
+Statistical differences between the NVP and its deuterium-labeled
+analog 12-d<sub>3</sub>-NVP were analyzed by unpaired <italic toggle="yes">t</italic> test with Welch correction and with the following significance levels: <italic toggle="yes">p</italic> &lt; 0.01 for ** and <italic toggle="yes">p</italic> &lt; 0.001 for
+***. GSH, glutathione; NVP, nevirapine.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr10" position="float" orientation="portrait" xlink:href="tx3c00192_0009.jpg"/></fig></sec></sec><sec id="sec4"><title>Discussion</title><p>As the first NNRTI drug approved, NVP has
+been widely employed
+for the treatment of HIV infection, even though it is now strategically
+being replaced with safer second-generation NNRTI drugs. Nonetheless,
+it is still prescribed as part of combinatorial ART regimens for some
+of the most vulnerable patient populations, such as neonates and pregnant
+people. Despite its common use, NVP is associated with various severe
+adverse effects, including skin rashes and liver toxicities, which
+are driven by the oxidative metabolism of the drug. Therefore, identification
+of analogs limiting these adverse effects would be beneficial, especially
+for vulnerable patient groups. Here, we assessed eight NVP analogs
+(<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>), including
+two human NVP metabolites, the 12OH- and 4-COOH-NVP, and a deuterated
+analog at the 12-position, using an HIV-RT inhibition assay. Undeniably,
+leveraging the prospect for active metabolite formation has been a
+productive trend in the pharmaceutical industry.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> While both human hydroxy metabolites showed some inhibition
+propensity for HIV-RT during screening, their inhibition potency was
+too low to be efficacious. From the HIV-RT inhibition screening, three
+analogs were selected: 2-nitro-NVP, 12-d<sub>3</sub>-NVP, and 3-bromo-NVP,
+which all demonstrated &gt;85% HIV-RT inhibition. Unexpectedly, the
+2-nitro-NVP
+and 12-d<sub>3</sub>-NVP showed submicromolar IC<sub>50</sub> values
+comparable to NVP (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>). The submicromolar inhibitory potency of the 12-d<sub>3</sub>-NVP analog further raised our interest, since this compound has
+demonstrated enhanced safety properties with decreased skin rash in
+rodents and improved mouse hepatocyte viability.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> The kinetic isotope effect from the deuterium atoms incorporated
+at the 12-position reduces the rate of oxidative metabolism by CYP3A4
+due to decreased zero-point energy and, therefore, limits formation
+of the electrophile quinone methide species and the 12OH-NVP metabolite.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> The use of the deuterium isotope in drug design
+has been of increased interest for the pharmaceutical industry, in
+particular to limit metabolic conversion and improve dosing.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> However, it was not until 2017 that the first
+deuterated drug, deutetrabenazine, was approved by the FDA for the
+treatment of the neurological disorder chorea associated with Huntington’s
+disease.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Following the approval of deutetrabenazine,
+several other deuterated drug derivatives are now undergoing clinical
+trials (e.g., ALK-001, AVP-786, VX-561).</p><p>The risk for adverse
+drug reactions with NVP is associated with
+the formation of reactive metabolites and with its capacity to induce
+the expression of CYP-metabolizing enzymes and to inactivate CYP3A4.<sup><xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref42">42</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> Given this, it was essential
+to evaluate if the three most potent NVP analogs identified in our
+HIV-RT inhibition screening would demonstrate similar DDI risks to
+NVP. We initially evaluated the induction of CYP3A4 and CYP2B6 gene
+expression in primary human hepatocytes (<xref rid="fig3" ref-type="fig">Figures <xref rid="fig3" ref-type="fig">3</xref></xref> and <xref rid="fig4" ref-type="fig">4</xref>). Although
+no effect was observed for CYP3A4 and CYP2B6 gene expression at the
+lowest drug concentration (25 μM, a comparable concentration
+to the reported <italic toggle="yes">C</italic><sub>max</sub> for NVP at steady
+state<sup><xref ref-type="bibr" rid="ref24">24</xref></sup>), except for the 3-bromo analog,
+a significant increase in CYP mRNA levels was obtained for all test
+compounds at the 100 μM concentration. These results unfortunately
+suggest similar, or potentially even more potent, as in the case of
+the 3-bromo-NVP, induction effects for the NVP analogs. Both CYP mRNA
+and enzyme activity level changes are valuable end points for comprehensive
+understanding of the potential for CYP induction. Because changes
+in CYP mRNA levels do not always translate directly to changes in
+CYP protein level, CYP activity levels are a more valuable measure
+of CYP function, as they are more responsive to enzyme inhibition
+and/or cytotoxicity. In fact, it is well established that CYP3A4 is
+inactivated by NVP.<sup><xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref26">26</xref></sup> Effectively, no change in CYP3A4
+activity was observed for NVP, 2-nitro-NVP, and 3-bromo-NVP at the
+100 μM concentration when the mRNA level increased (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>). The effects observed
+in the primary human hepatocyte induction studies from the treatment
+with NVP and its analogs illustrate the complexity of the DDI phenomenon
+mitigated in part by the change in CYP3A4 expression and in another
+part by its inactivation. This results in a dynamic balancing act
+between increased enzyme activity through induction and decreased
+enzyme activity through inhibition, the extent of each being regulated
+by the dose of the drug. Interestingly, data from several human PK
+studies reporting decreased AUC for saquinavir, indinavir, and methadone
+when coadministrated with NVP indicate that the NVP induction component
+seems to outweigh the inactivation, at least in vivo.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> Yet, the most intriguing result from these induction studies
+was the change in CYP3A4 activity level with the 12-d<sub>3</sub>-NVP
+analog treatment. Even though the 12-d<sub>3</sub>-NVP showed similar
+changes in CYP3A4 mRNA levels to NVP, the deuterated analog triggered
+a 2.6-fold increase in CYP3A4 activity, suggesting alteration in the
+inactivation extent of the 12-d<sub>3</sub>-NVP.</p><p>To further
+explore the differences between NVP and 12-d<sub>3</sub>-NVP regarding
+the inhibition of CYP3A4, an IC<sub>50</sub> shift
+experiment was carried out (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> and <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>). In general, 12-d<sub>3</sub>-NVP demonstrated higher inhibition
+potency for the 1′-hydroxylation of MDZ over NVP. No time-dependent
+inhibition was noticed in either case; however, MDI was conspicuous
+with IC<sub>50</sub> shift [(−)NADPH/(+)NADPH] of 5.7 and 3.3
+for NVP and 12-d<sub>3</sub>-NVP, respectively. These results, then,
+triggered further characterization of the recombinant CYP3A4 inactivation
+kinetics for both compounds. The <italic toggle="yes">K</italic><sub>I</sub> and <italic toggle="yes">k</italic><sub>inact</sub> inactivation constants were determined
+using the dilution method with the standard replot approach (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> and <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>). The <italic toggle="yes">K</italic><sub>I</sub> was slightly decreased for 12-d<sub>3</sub>-NVP, while the
+maximum potential rate of inactivation was substantially lower (1.5-fold).
+The tighter CYP3A4 IC<sub>50</sub> and <italic toggle="yes">K</italic><sub>I</sub> inhibition values measured for the deuterated NVP may results from
+nuclear quantum effects of deuteration modifying the hydrogen bonding
+network within the CYP3A4 active site.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> The lower inactivation rate for the deuterated analog would per
+consequence constitute the main rationale for the increase in CYP3A4
+activity measured in the human primary hepatocytes. Nevertheless,
+the CYP3A4 inactivation features of the 12-d<sub>3</sub>-NVP were
+rather unpredicted since metabolism at the 12-position should be restricted
+by the deuterium isotopes. Another possible explanation for the inactivation
+observed with 12-d<sub>3</sub>-NVP may be that a different metabolic
+pathway is involved in the CYP3A4 MDI.</p><p>Two mercapturic derivatives
+of NVP have been identified in vivo
+in human urine, and rodent bile and urine, the 3- and 12-mercapturic
+conjugates.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> The 3-mercapturic metabolite
+was detected at higher abundance and is thought to originate from
+a 2,3-epoxide reactive intermediate (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>).<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref45">45</xref></sup> While the CYP enzyme
+responsible for formation of that epoxide metabolite has not yet been
+characterized, CYP3A4 and CYP2B6, known to be responsible for production
+of the 2- and 3-hydroxy NVP metabolites, respectively, represent suitable
+candidates.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> Our GSH trapping with the
+recombinant CYP3A4 and CYP2B6 enzymes identified only one GSH metabolite
+formed in the recombinant incubations and pointed to CYP3A4 as the
+most efficient enzyme in forming that adduct (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). Comparison of the <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic> and MSMS spectra of the GSH conjugates detected in NVP
+and 12-d<sub>3</sub>-NVP incubations supported that the GSH metabolite
+had an intact 12-deuterated methyl group (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>), and thus, the GSH conjugate could not
+originate from the quinone methide intermediate. Surprisingly, no
+other GSH adduct, including the NVP-12-GSH, was detected in the CYP3A4
+incubations with the unlabeled NVP. It is possible that under our
+experimental conditions using high concentration of recombinant enzyme,
+the electrophile quinone methide produced by CYP3A4 may instantaneously
+covalently adduct a residue of its active site (e.g., Cys239<sup><xref ref-type="bibr" rid="ref27">27</xref></sup>), inactivating the enzyme and restricting the
+metabolite release into the incubation media containing excess GSH
+molecules. Furthermore, NVP deuteration at the 12-methyl position,
+while decreasing formation of the 12-hydroxy metabolite, completely
+shifted the metabolism toward the 2-hydroxy and GSH NVP metabolites
+(<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>). The 2-fold
+increase measured for these two metabolites indicated a higher CYP3A4
+metabolic rate for the deuterated drug, and thus, minimal inactivation
+of the CYP enzyme. Effectively, dosing of the 12-d<sub>3</sub>-NVP
+in rodents yielded only very low levels of the deuterated analog in
+the animal blood; however, its concentration increased substantially
+when dosed with the nonspecific CYP inhibitor 1-aminobenzotriazole.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> This suggests that the combined lack of CYP3A4
+inactivation by 12-d<sub>3</sub>-NVP and metabolic switching to the
+production of the 2-hydroxy and GSH NVP metabolites ultimately leads
+to increased drug clearance and, possibly, reduced drug efficacy.
+This may be an important consideration when undertaking a deuteration
+project to reduce drug toxicity, particularly for drugs that must
+maintain a high circulating plasma concentration to preserve efficacy
+such as antivirals or antineoplastics.</p><p>Together, our results
+indicate that reducing the hepatotoxicity
+risks of NVP may be challenging. First, of the three NVP analogs with
+the highest HIV-RT inhibition potencies, all demonstrated similar,
+or worse, CYP induction properties compared to NVP, thus not improving
+the DDI risk. Second, deuteration at the 12-position, a strategy advantageous
+in reducing formation of the electrophile quinone methide species
+and production of the 12OH-NVP, would in fact yield further increased
+clearance and metabolic shift toward the arene epoxide pathway that
+may likewise trigger idiosyncratic hepatotoxicity over time. Lastly,
+the quinone methide intermediate, which on the one hand is primarily
+responsible for the idiosyncratic skin and liver toxicities, is on
+the other hand positively mitigating the CYP3A4 induction effect by
+inactivating the enzyme. Hence, being able to improve the DDI risks
+and toxicity profile for NVP may be compared to the funambulist “walking
+on a tightrope” where induction and MDI weigh on each side
+of the balancing pole.</p></sec></body><back><notes id="notes2" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acs.chemrestox.3c00192?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acs.chemrestox.3c00192</ext-link>.<list id="silist" list-type="simple"><list-item><p>Dose–response
+curve of 12-hydroxy-NVP against
+HIV reverse transcriptase; hepatocyte LDH cytotoxicity; representative
+UV and MRM chromatograms for NVP hydroxy metabolite standards; and
+NVP and 12-d<sub>3</sub>-NVP metabolism in HLMs (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemrestox.3c00192/suppl_file/tx3c00192_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="tx3c00192_si_001.pdf" position="float" orientation="portrait"><caption><p>tx3c00192_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes1"><title>Author Contributions</title><p><sup>†</sup> S.E.K.
+and E.G.G. contributed equally to
+this work and are co-first
+authors. CRediT: <bold>Sylvie E Kandel</bold> conceptualization, data
+curation, formal analysis, investigation, methodology, validation,
+visualization, writing-original draft, writing-review &amp; editing; <bold>Emily G Gracey</bold> data curation, formal analysis, investigation,
+methodology, validation, visualization, writing-original draft, writing-review
+&amp; editing; <bold>Jed N Lampe</bold> conceptualization, data curation,
+formal analysis, funding acquisition, investigation, methodology,
+project administration, resources, supervision, validation, writing-review
+&amp; editing.</p></notes><notes notes-type="funding-statement" id="notes4"><p>The research
+reported here was supported by the National Institutes of Health,
+National Institute of Allergy and Infectious Diseases (NIAID) Award
+Number R01AI150494 (J.N.L.). The content is solely the responsibility
+of the authors and does not necessarily represent the official views
+of the National Institutes of Health.</p></notes><notes notes-type="COI-statement" id="notes5"><p>The authors
+declare no competing financial interest.</p></notes><glossary id="dl1"><def-list><title>ABBREVIATIONS</title><def-item><term>ACN</term><def><p>acetonitrile</p></def></def-item><def-item><term>AUC</term><def><p>area under the
+curve</p></def></def-item><def-item><term>4-COOH-NVP</term><def><p>4-carboxy-nevirapine</p></def></def-item><def-item><term>cART</term><def><p>combinatorial
+antiretroviral therapies</p></def></def-item><def-item><term>CDC</term><def><p>Centers for Disease Control</p></def></def-item><def-item><term>CE</term><def><p>collision energy</p></def></def-item><def-item><term>CV</term><def><p>cone voltage</p></def></def-item><def-item><term>CYP</term><def><p>cytochrome P450</p></def></def-item><def-item><term>DDI</term><def><p>drug–drug interaction</p></def></def-item><def-item><term>DMSO</term><def><p>dimethyl sulfoxide</p></def></def-item><def-item><term>FDA</term><def><p>Food and Drug Administration</p></def></def-item><def-item><term>GSH</term><def><p>glutathione</p></def></def-item><def-item><term>HIV</term><def><p>human immunodeficiency
+virus</p></def></def-item><def-item><term>HIV-RT</term><def><p>HIV
+reverse transcriptase</p></def></def-item><def-item><term>HLMs</term><def><p>human liver microsomes</p></def></def-item><def-item><term>HPLC</term><def><p>high performance liquid chromatography</p></def></def-item><def-item><term>1’OH-MDZ</term><def><p>1′-hydroxy-midazolam</p></def></def-item><def-item><term>4OH-MDZ</term><def><p>4-hydroxy-midazolam</p></def></def-item><def-item><term>2OH-NVP</term><def><p>2-hydroxy-nevirapine</p></def></def-item><def-item><term>3OH-NVP</term><def><p>3-hydroxy-nevirapine</p></def></def-item><def-item><term>8OH-NVP</term><def><p>8-hydroxy-nevirapine</p></def></def-item><def-item><term>12OH-NVP</term><def><p>12-hydroxy-nevirapine</p></def></def-item><def-item><term>IDRs</term><def><p>idiosyncratic
+drug reactions</p></def></def-item><def-item><term>IS</term><def><p>internal standard</p></def></def-item><def-item><term><italic toggle="yes">k</italic><sub>obs</sub></term><def><p>observed inactivation rate constant</p></def></def-item><def-item><term>LC-MS/MS</term><def><p>liquid chromatography
+tandem mass spectrometry</p></def></def-item><def-item><term>LDH</term><def><p>lactate dehydrogenase</p></def></def-item><def-item><term>MDI</term><def><p>metabolism-dependent inactivator</p></def></def-item><def-item><term>MDZ</term><def><p>midazolam</p></def></def-item><def-item><term>MRM</term><def><p>multiple reaction monitoring</p></def></def-item><def-item><term>MS</term><def><p>mass spectrometry</p></def></def-item><def-item><term>NADP<sup>+</sup></term><def><p>β-nicotinamide
+adenine dinucleotide phosphate</p></def></def-item><def-item><term>NADPH</term><def><p>β-nicotinamide adenine dinucleotide phosphate
+reduced</p></def></def-item><def-item><term>NMR</term><def><p>nuclear
+magnetic resonance</p></def></def-item><def-item><term>NNRTI(s)</term><def><p>non-nucleoside reverse transcriptase inhibitor(s)</p></def></def-item><def-item><term>NVP</term><def><p>nevirapine</p></def></def-item><def-item><term>NVP-3-GSH</term><def><p>nevirapine-3-glutathione</p></def></def-item><def-item><term>PBS</term><def><p>phosphate-buffered
+saline</p></def></def-item><def-item><term>PK</term><def><p>pharmacokinetic</p></def></def-item><def-item><term>qPCR</term><def><p>quantitative polymerase
+chain reaction,</p></def></def-item><def-item><term>RIF</term><def><p>rifampicin</p></def></def-item><def-item><term>SULT</term><def><p>sulfotransferase</p></def></def-item><def-item><term>TDI</term><def><p>time-dependent inhibitor</p></def></def-item><def-item><term>UPLC</term><def><p>ultra-performance liquid chromatography</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><article-title>Nevirapine, the first of a new class of NNRTI drugs arrives in pharmacies</article-title>. <source>Crit. Path AIDS Proj.</source><year>1996</year>, (<issue>31</issue>), , <fpage>18</fpage><lpage>−19</lpage>.<pub-id pub-id-type="pmid">11363827</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name name-style="western"><surname>Ghosn</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Chaix</surname><given-names>M. L.</given-names></name>; <name name-style="western"><surname>Delaugerre</surname><given-names>C.</given-names></name>
+<article-title>HIV-1 resistance
+to first- and second-generation
+non-nucleoside reverse transcriptase inhibitors</article-title>. <source>AIDS Rev.</source>
+<year>2009</year>, <volume>11</volume> (<issue>3</issue>), <fpage>165</fpage>–<lpage>173</lpage>.<pub-id pub-id-type="pmid">19654858</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name name-style="western"><surname>Ripamonti</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Bombana</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Rizzi</surname><given-names>M.</given-names></name>
+<article-title>Rilpivirine: drug profile of a second-generation
+non-nucleoside reverse transcriptase HIV-inhibitor</article-title>. <source>Expert Rev. Anti Infect. Ther.</source>
+<year>2014</year>, <volume>12</volume> (<issue>1</issue>), <fpage>13</fpage>–<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1586/14787210.2014.863708</pub-id>.<pub-id pub-id-type="pmid">24308712</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name name-style="western"><surname>Himmel</surname><given-names>D. M.</given-names></name>; <name name-style="western"><surname>Arnold</surname><given-names>E.</given-names></name>
+<article-title>Non-Nucleoside Reverse
+Transcriptase Inhibitors Join
+Forces with Integrase Inhibitors to Combat HIV</article-title>. <source>Pharmaceuticals</source>
+<year>2020</year>, <volume>13</volume> (<issue>6</issue>), <fpage>122</fpage><pub-id pub-id-type="doi">10.3390/ph13060122</pub-id>.<pub-id pub-id-type="pmid">32545407</pub-id><pub-id pub-id-type="pmcid">PMC7345359</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><article-title>Nevirapine use to reduce mother-to-child transmission
+of HIV in Canada</article-title>. <source>Paediatr. Child Health</source>
+<year>2001</year>, <volume>6</volume> (<issue>3</issue>), <fpage>121</fpage>–<lpage>122</lpage>. <pub-id pub-id-type="doi">10.1093/pch/6.3.121</pub-id>.<pub-id pub-id-type="pmid">20084218</pub-id><pub-id pub-id-type="pmcid">PMC2804521</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name name-style="western"><surname>Mofenson</surname><given-names>L. M.</given-names></name>
+<article-title>Prevention
+in neglected subpopulations: prevention of mother-to-child transmission
+of HIV infection</article-title>. <source>Clin. Infect. Dis.</source>
+<year>2010</year>, <volume>50</volume> (<issue>Suppl 3</issue>), <fpage>S130</fpage>–<lpage>S148</lpage>. <pub-id pub-id-type="doi">10.1086/651484</pub-id>.<pub-id pub-id-type="pmid">20397941</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="undeclared" id="cit7">Drugs and Lactation
+Database (LactMed®).
+Nevirapine. Bethesda (MD): National Institute of Child Health and
+Human Development, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/pubmed/30000595">https://www.ncbi.nlm.nih.gov/pubmed/30000595</uri> (accessed June 2023).</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name name-style="western"><surname>Cressey</surname><given-names>T.
+R.</given-names></name>; <name name-style="western"><surname>Punyawudho</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Le Coeur</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Jourdain</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Saenjum</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Capparelli</surname><given-names>E. V.</given-names></name>; <name name-style="western"><surname>Jittayanun</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Phanomcheong</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Luvira</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Borkird</surname><given-names>T.</given-names></name>; et al. <article-title>Assessment of Nevirapine
+Prophylactic and Therapeutic Dosing Regimens for Neonates</article-title>. <source>J. Acquir. Immune Defic. Syndr.</source>
+<year>2017</year>, <volume>75</volume> (<issue>5</issue>), <fpage>554</fpage>–<lpage>560</lpage>. <pub-id pub-id-type="doi">10.1097/QAI.0000000000001447</pub-id>.<pub-id pub-id-type="pmid">28489732</pub-id><pub-id pub-id-type="pmcid">PMC5508655</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="undeclared" id="cit9">What to start:
+regimens recommended
+for initial therapy of antiretroviral-naive children. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://Clinicalinfo.HIV.gov">Clinicalinfo.HIV.gov</uri>, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://clinicalinfo.hiv.gov/en/guidelines/pediatric-arv/regimens-recommended-initial-therapy-antiretroviral-naive-children#:%7E:text=For%20treatment-naive%20children%2C%20the%20Panel%20on%20Antiretroviral%20Therapy,transcriptase%20inhibitor%2C%20or%20a%20boosted%20protease%20inhibitor%20%28AI%2A%29">https://clinicalinfo.hiv.gov/en/guidelines/pediatric-arv/regimens-recommended-initial-therapy-antiretroviral-naive-children#:%7E:text=For%20treatment-naive%20children%2C%20the%20Panel%20on%20Antiretroviral%20Therapy,transcriptase%20inhibitor%2C%20or%20a%20boosted%20protease%20inhibitor%20%28AI%2A%29</uri> (accessed June 2023).</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name name-style="western"><surname>Warren</surname><given-names>K.
+J.</given-names></name>; <name name-style="western"><surname>Boxwell</surname><given-names>D. E.</given-names></name>; <name name-style="western"><surname>Kim</surname><given-names>N. Y.</given-names></name>; <name name-style="western"><surname>Drolet</surname><given-names>B. A.</given-names></name>
+<article-title>Nevirapine-associated
+Stevens-Johnson syndrome</article-title>. <source>Lancet</source>
+<year>1998</year>, <volume>351</volume> (<issue>9102</issue>), <fpage>567</fpage><pub-id pub-id-type="doi">10.1016/S0140-6736(98)24008-6</pub-id>.<pub-id pub-id-type="pmid">9492778</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name name-style="western"><surname>Popovic</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Shenton</surname><given-names>J. M.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Baban</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Tharmanathan</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Mannargudi</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Abdulla</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Uetrecht</surname><given-names>J. P.</given-names></name>
+<article-title>Nevirapine hypersensitivity</article-title>. <source>Handb. Exp. Pharmacol.</source>
+<year>2010</year>, <volume>196</volume>, <fpage>437</fpage>–<lpage>451</lpage>. <pub-id pub-id-type="doi">10.1007/978-3-642-00663-0_15</pub-id>.<pub-id pub-id-type="pmid">20020271</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="undeclared" id="cit12"><source>LiverTox: Clinical
+and
+Research Information on Drug-Induced Liver Injury [Internet]. Nevirapine</source>. <publisher-name>National Institute of Diabetes and Digestive and
+Kidney Diseases</publisher-name>: <publisher-loc>Bethesda, MD</publisher-loc>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/books/NBK548895/">https://www.ncbi.nlm.nih.gov/books/NBK548895/</uri> (accessed June 2023).</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="undeclared" id="cit13">Viramune (nevirapine) package
+insert (revision November 2011). <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/020636s039_020933s030lbl.pdf">https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/020636s039_020933s030lbl.pdf</uri> (accessed June 2023).</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name name-style="western"><surname>Chen</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Mannargudi</surname><given-names>B. M.</given-names></name>; <name name-style="western"><surname>Xu</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Uetrecht</surname><given-names>J.</given-names></name>
+<article-title>Demonstration of the
+metabolic pathway responsible for nevirapine-induced skin rash</article-title>. <source>Chem. Res. Toxicol.</source>
+<year>2008</year>, <volume>21</volume> (<issue>9</issue>), <fpage>1862</fpage>–<lpage>1870</lpage>. <pub-id pub-id-type="doi">10.1021/tx800177k</pub-id>.<pub-id pub-id-type="pmid">18729332</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name name-style="western"><surname>Sharma</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Li</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Novalen</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Hayes</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Uetrecht</surname><given-names>J.</given-names></name>
+<article-title>Bioactivation of nevirapine
+to a reactive quinone methide: implications for liver injury</article-title>. <source>Chem. Res. Toxicol.</source>
+<year>2012</year>, <volume>25</volume> (<issue>8</issue>), <fpage>1708</fpage>–<lpage>1719</lpage>. <pub-id pub-id-type="doi">10.1021/tx300172s</pub-id>.<pub-id pub-id-type="pmid">22793666</pub-id><pub-id pub-id-type="pmcid">PMC3475366</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name name-style="western"><surname>Riska</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Lamson</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>MacGregor</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Sabo</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Hattox</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Pav</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Keirns</surname><given-names>J.</given-names></name>
+<article-title>Disposition
+and biotransformation of the antiretroviral
+drug nevirapine in humans</article-title>. <source>Drug Metab. Dispos.</source>
+<year>1999</year>, <volume>27</volume> (<issue>8</issue>), <fpage>895</fpage>–<lpage>901</lpage>.<pub-id pub-id-type="pmid">10421616</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name name-style="western"><surname>Sharma</surname><given-names>A.
+M.</given-names></name>; <name name-style="western"><surname>Novalen</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Tanino</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Uetrecht</surname><given-names>J. P.</given-names></name>
+<article-title>12-OH-nevirapine
+sulfate, formed in the skin, is responsible for nevirapine-induced
+skin rash</article-title>. <source>Chem. Res. Toxicol.</source>
+<year>2013</year>, <volume>26</volume> (<issue>5</issue>), <fpage>817</fpage>–<lpage>827</lpage>. <pub-id pub-id-type="doi">10.1021/tx400098z</pub-id>.<pub-id pub-id-type="pmid">23590230</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name name-style="western"><surname>Bersoff-Matcha</surname><given-names>S. J.</given-names></name>; <name name-style="western"><surname>Miller</surname><given-names>W. C.</given-names></name>; <name name-style="western"><surname>Aberg</surname><given-names>J. A.</given-names></name>; <name name-style="western"><surname>van Der Horst</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Hamrick</surname><given-names>H. J.</given-names><suffix>Jr.</suffix></name>; <name name-style="western"><surname>Powderly</surname><given-names>W. G.</given-names></name>; <name name-style="western"><surname>Mundy</surname><given-names>L. M.</given-names></name>
+<article-title>Sex differences
+in nevirapine rash</article-title>. <source>Clin. Infect. Dis.</source>
+<year>2001</year>, <volume>32</volume> (<issue>1</issue>), <fpage>124</fpage>–<lpage>129</lpage>. <pub-id pub-id-type="doi">10.1086/317536</pub-id>.<pub-id pub-id-type="pmid">11118391</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name name-style="western"><surname>Sarfo</surname><given-names>F. S.</given-names></name>; <name name-style="western"><surname>Sarfo</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Norman</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Phillips</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Chadwick</surname><given-names>D.</given-names></name>
+<article-title>Incidence
+and determinants of nevirapine and efavirenz-related skin rashes in
+West Africans: nevirapine’s epitaph?</article-title>. <source>PLoS One</source>
+<year>2014</year>, <volume>9</volume> (<issue>4</issue>), <elocation-id>e94854</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0094854</pub-id>.<pub-id pub-id-type="pmid">24728406</pub-id><pub-id pub-id-type="pmcid">PMC3984248</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name name-style="western"><surname>Erickson</surname><given-names>D. A.</given-names></name>; <name name-style="western"><surname>Mather</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Trager</surname><given-names>W. F.</given-names></name>; <name name-style="western"><surname>Levy</surname><given-names>R. H.</given-names></name>; <name name-style="western"><surname>Keirns</surname><given-names>J. J.</given-names></name>
+<article-title>Characterization
+of the in vitro biotransformation of the HIV-1 reverse transcriptase
+inhibitor nevirapine by human hepatic cytochromes P-450</article-title>. <source>Drug Metab. Dispos.</source>
+<year>1999</year>, <volume>27</volume> (<issue>12</issue>), <fpage>1488</fpage>–<lpage>1495</lpage>.<pub-id pub-id-type="pmid">10570031</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name name-style="western"><surname>Heck</surname><given-names>C. J. S.</given-names></name>; <name name-style="western"><surname>Seneviratne</surname><given-names>H. K.</given-names></name>; <name name-style="western"><surname>Bumpus</surname><given-names>N. N.</given-names></name>
+<article-title>Twelfth-Position
+Deuteration of Nevirapine Reduces 12-Hydroxy-Nevirapine Formation
+and Nevirapine-Induced Hepatocyte Death</article-title>. <source>J.
+Med. Chem.</source>
+<year>2020</year>, <volume>63</volume> (<issue>12</issue>), <fpage>6561</fpage>–<lpage>6574</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jmedchem.9b01990</pub-id>.<pub-id pub-id-type="pmid">32065749</pub-id><pub-id pub-id-type="pmcid">PMC7959450</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name name-style="western"><surname>Srivastava</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Lian</surname><given-names>L. Y.</given-names></name>; <name name-style="western"><surname>Maggs</surname><given-names>J. L.</given-names></name>; <name name-style="western"><surname>Chaponda</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Pirmohamed</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Williams</surname><given-names>D. P.</given-names></name>; <name name-style="western"><surname>Park</surname><given-names>B. K.</given-names></name>
+<article-title>Quantifying the
+metabolic activation
+of nevirapine in patients by integrated applications of NMR and mass
+spectrometries</article-title>. <source>Drug Metab. Dispos.</source>
+<year>2010</year>, <volume>38</volume> (<issue>1</issue>), <fpage>122</fpage>–<lpage>132</lpage>. <pub-id pub-id-type="doi">10.1124/dmd.109.028688</pub-id>.<pub-id pub-id-type="pmid">19797610</pub-id><pub-id pub-id-type="pmcid">PMC2802423</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name name-style="western"><surname>Tateishi</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Ohe</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Yasuda</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Takahashi</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Nakamura</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Kazuki</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Mashino</surname><given-names>T.</given-names></name>
+<article-title>Synthesis
+and evaluation of nevirapine analogs to study
+the metabolic activation of nevirapine</article-title>. <source>Drug
+Metab. Pharmacokinet.</source>
+<year>2020</year>, <volume>35</volume> (<issue>2</issue>), <fpage>238</fpage>–<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1016/j.dmpk.2020.01.006</pub-id>.<pub-id pub-id-type="pmid">32184040</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name name-style="western"><surname>Fan-Havard</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Chou</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Ling</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Barrail-Tran</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Haas</surname><given-names>D. W.</given-names></name>; <name name-style="western"><surname>Taburet</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Group</surname><given-names>A. S.</given-names></name>
+<article-title>Pharmacokinetics
+of phase I nevirapine metabolites following a single dose and at steady
+state</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<year>2013</year>, <volume>57</volume> (<issue>5</issue>), <fpage>2154</fpage>–<lpage>2160</lpage>. <pub-id pub-id-type="doi">10.1128/AAC.02294-12</pub-id>.<pub-id pub-id-type="pmid">23459477</pub-id><pub-id pub-id-type="pmcid">PMC3632909</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name name-style="western"><surname>von
+Moltke</surname><given-names>L. L.</given-names></name>; <name name-style="western"><surname>Greenblatt</surname><given-names>D. J.</given-names></name>; <name name-style="western"><surname>Granda</surname><given-names>B. W.</given-names></name>; <name name-style="western"><surname>Giancarlo</surname><given-names>G. M.</given-names></name>; <name name-style="western"><surname>Duan</surname><given-names>S. X.</given-names></name>; <name name-style="western"><surname>Daily</surname><given-names>J. P.</given-names></name>; <name name-style="western"><surname>Harmatz</surname><given-names>J. S.</given-names></name>; <name name-style="western"><surname>Shader</surname><given-names>R. I.</given-names></name>
+<article-title>Inhibition
+of human cytochrome P450 isoforms by nonnucleoside reverse transcriptase
+inhibitors</article-title>. <source>J. Clin. Pharmacol.</source>
+<year>2001</year>, <volume>41</volume> (<issue>1</issue>), <fpage>85</fpage>–<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1177/00912700122009728</pub-id>.<pub-id pub-id-type="pmid">11225565</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name name-style="western"><surname>Wen</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Chen</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Fitch</surname><given-names>W. L.</given-names></name>
+<article-title>Metabolic
+activation of nevirapine
+in human liver microsomes: dehydrogenation and inactivation of cytochrome
+P450 3A4</article-title>. <source>Drug Metab. Dispos.</source>
+<year>2009</year>, <volume>37</volume> (<issue>7</issue>), <fpage>1557</fpage>–<lpage>1562</lpage>. <pub-id pub-id-type="doi">10.1124/dmd.108.024851</pub-id>.<pub-id pub-id-type="pmid">19364830</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name name-style="western"><surname>Baer</surname><given-names>B. R.</given-names></name>; <name name-style="western"><surname>Wienkers</surname><given-names>L. C.</given-names></name>; <name name-style="western"><surname>Rock</surname><given-names>D. A.</given-names></name>
+<article-title>Time-dependent inactivation of P450
+3A4 by raloxifene: identification of Cys239 as the site of apoprotein
+alkylation</article-title>. <source>Chem. Res. Toxicol.</source>
+<year>2007</year>, <volume>20</volume> (<issue>6</issue>), <fpage>954</fpage>–<lpage>964</lpage>. <pub-id pub-id-type="doi">10.1021/tx700037e</pub-id>.<pub-id pub-id-type="pmid">17497897</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name name-style="western"><surname>Back</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Gibbons</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Khoo</surname><given-names>S.</given-names></name>
+<article-title>Pharmacokinetic
+drug interactions
+with nevirapine</article-title>. <source>J. Acquir. Immune Defic. Syndr.</source>
+<year>2003</year>, <volume>34</volume> (<issue>Suppl 1</issue>), <fpage>S8</fpage>–<lpage>S14</lpage>. <pub-id pub-id-type="doi">10.1097/00126334-200309011-00003</pub-id>.<pub-id pub-id-type="pmid">14562853</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name name-style="western"><surname>Antinori</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Baldini</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Girardi</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Cingolani</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Zaccarelli</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Di Giambenedetto</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Barracchini</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>De Longis</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Murri</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Tozzi</surname><given-names>V.</given-names></name>; et al. <article-title>Female
+sex and the use of anti-allergic agents increase the risk of developing
+cutaneous rash associated with nevirapine therapy</article-title>. <source>AIDS</source>
+<year>2001</year>, <volume>15</volume> (<issue>12</issue>), <fpage>1579</fpage>–<lpage>1581</lpage>. <pub-id pub-id-type="doi">10.1097/00002030-200108170-00018</pub-id>.<pub-id pub-id-type="pmid">11504993</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name name-style="western"><surname>Marinho</surname><given-names>A. T.</given-names></name>; <name name-style="western"><surname>Rodrigues</surname><given-names>P. M.</given-names></name>; <name name-style="western"><surname>Caixas</surname><given-names>U.</given-names></name>; <name name-style="western"><surname>Antunes</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Branco</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Harjivan</surname><given-names>S. G.</given-names></name>; <name name-style="western"><surname>Marques</surname><given-names>M. M.</given-names></name>; <name name-style="western"><surname>Monteiro</surname><given-names>E. C.</given-names></name>; <name name-style="western"><surname>Pereira</surname><given-names>S. A.</given-names></name>
+<article-title>Differences
+in nevirapine biotransformation as a factor for its sex-dependent
+dimorphic profile of adverse drug reactions</article-title>. <source>J. Antimicrob. Chemother.</source>
+<year>2014</year>, <volume>69</volume> (<issue>2</issue>), <fpage>476</fpage>–<lpage>482</lpage>. <pub-id pub-id-type="doi">10.1093/jac/dkt359</pub-id>.<pub-id pub-id-type="pmid">24051761</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name name-style="western"><surname>DeWitt</surname><given-names>S. H.</given-names></name>; <name name-style="western"><surname>Maryanoff</surname><given-names>B. E.</given-names></name>
+<article-title>Deuterated
+Drug Molecules: Focus on FDA-Approved Deutetrabenazine(Published
+as part of the Biochemistry series ″Biochemistry to Bedside″)</article-title>. <source>Biochemistry</source>
+<year>2018</year>, <volume>57</volume> (<issue>5</issue>), <fpage>472</fpage>–<lpage>473</lpage>. <pub-id pub-id-type="doi">10.1021/acs.biochem.7b00765</pub-id>.<pub-id pub-id-type="pmid">29160059</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name name-style="western"><surname>Berry</surname><given-names>L. M.</given-names></name>; <name name-style="western"><surname>Zhao</surname><given-names>Z.</given-names></name>
+<article-title>An examination of IC50 and IC50-shift
+experiments in assessing time-dependent
+inhibition of CYP3A4, CYP2D6 and CYP2C9 in human liver microsomes</article-title>. <source>Drug Metab. Lett.</source>
+<year>2008</year>, <volume>2</volume> (<issue>1</issue>), <fpage>51</fpage>–<lpage>59</lpage>. <pub-id pub-id-type="doi">10.2174/187231208783478407</pub-id>.<pub-id pub-id-type="pmid">19356071</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name name-style="western"><surname>Parkinson</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Kazmi</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Buckley</surname><given-names>D. B.</given-names></name>; <name name-style="western"><surname>Yerino</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Paris</surname><given-names>B. L.</given-names></name>; <name name-style="western"><surname>Holsapple</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Toren</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Otradovec</surname><given-names>S. M.</given-names></name>; <name name-style="western"><surname>Ogilvie</surname><given-names>B. W.</given-names></name>
+<article-title>An evaluation of
+the dilution method for identifying
+metabolism-dependent inhibitors of cytochrome P450 enzymes</article-title>. <source>Drug Metab. Dispos.</source>
+<year>2011</year>, <volume>39</volume> (<issue>8</issue>), <fpage>1370</fpage>–<lpage>1387</lpage>. <pub-id pub-id-type="doi">10.1124/dmd.111.038596</pub-id>.<pub-id pub-id-type="pmid">21525169</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name name-style="western"><surname>Ernest</surname><given-names>C. S.</given-names><suffix>2nd</suffix></name>; <name name-style="western"><surname>Hall</surname><given-names>S. D.</given-names></name>; <name name-style="western"><surname>Jones</surname><given-names>D. R.</given-names></name>
+<article-title>Mechanism-based
+inactivation of CYP3A by HIV protease inhibitors</article-title>. <source>J. Pharmacol. Exp. Ther.</source>
+<year>2005</year>, <volume>312</volume> (<issue>2</issue>), <fpage>583</fpage>–<lpage>591</lpage>. <pub-id pub-id-type="doi">10.1124/jpet.104.075416</pub-id>.<pub-id pub-id-type="pmid">15523003</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name name-style="western"><surname>Burt</surname><given-names>H. J.</given-names></name>; <name name-style="western"><surname>Pertinez</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Sall</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Collins</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Hyland</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Houston</surname><given-names>J. B.</given-names></name>; <name name-style="western"><surname>Galetin</surname><given-names>A.</given-names></name>
+<article-title>Progress curve
+mechanistic modeling
+approach for assessing time-dependent inhibition of CYP3A4</article-title>. <source>Drug Metab. Dispos.</source>
+<year>2012</year>, <volume>40</volume> (<issue>9</issue>), <fpage>1658</fpage>–<lpage>1667</lpage>. <pub-id pub-id-type="doi">10.1124/dmd.112.046078</pub-id>.<pub-id pub-id-type="pmid">22621802</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name name-style="western"><surname>Nagar</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Jones</surname><given-names>J. P.</given-names></name>; <name name-style="western"><surname>Korzekwa</surname><given-names>K.</given-names></name>
+<article-title>A numerical
+method for analysis of
+in vitro time-dependent inhibition data. Part 1. Theoretical considerations</article-title>. <source>Drug Metab. Dispos.</source>
+<year>2014</year>, <volume>42</volume> (<issue>9</issue>), <fpage>1575</fpage>–<lpage>1586</lpage>. <pub-id pub-id-type="doi">10.1124/dmd.114.058289</pub-id>.<pub-id pub-id-type="pmid">24939654</pub-id><pub-id pub-id-type="pmcid">PMC4152869</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name name-style="western"><surname>Korzekwa</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Tweedie</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Argikar</surname><given-names>U. A.</given-names></name>; <name name-style="western"><surname>Whitcher-Johnstone</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Bell</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Bickford</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Nagar</surname><given-names>S.</given-names></name>
+<article-title>A numerical
+method
+for analysis of in vitro time-dependent inhibition data. Part 2. Application
+to experimental data</article-title>. <source>Drug Metab. Dispos.</source>
+<year>2014</year>, <volume>42</volume> (<issue>9</issue>), <fpage>1587</fpage>–<lpage>1595</lpage>. <pub-id pub-id-type="doi">10.1124/dmd.114.058297</pub-id>.<pub-id pub-id-type="pmid">24939653</pub-id><pub-id pub-id-type="pmcid">PMC4152872</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name name-style="western"><surname>Strelow</surname><given-names>J. M.</given-names></name>
+<article-title>A Perspective
+on the Kinetics of Covalent and Irreversible Inhibition</article-title>. <source>SLAS Discovery</source>
+<year>2017</year>, <volume>22</volume> (<issue>1</issue>), <fpage>3</fpage>–<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1177/1087057116671509</pub-id>.<pub-id pub-id-type="pmid">27703080</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name name-style="western"><surname>Lee</surname><given-names>K. S.</given-names></name>; <name name-style="western"><surname>Kim</surname><given-names>S. K.</given-names></name>
+<article-title>Direct and metabolism-dependent
+cytochrome P450 inhibition
+assays for evaluating drug-drug interactions</article-title>. <source>J. Appl. Toxicol.</source>
+<year>2013</year>, <volume>33</volume> (<issue>2</issue>), <fpage>100</fpage>–<lpage>108</lpage>. <pub-id pub-id-type="doi">10.1002/jat.1720</pub-id>.<pub-id pub-id-type="pmid">21915887</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name name-style="western"><surname>Obach</surname><given-names>R. S.</given-names></name>
+<article-title>Pharmacologically
+active drug metabolites: impact on drug discovery and pharmacotherapy</article-title>. <source>Pharmacol. Rev.</source>
+<year>2013</year>, <volume>65</volume> (<issue>2</issue>), <fpage>578</fpage>–<lpage>640</lpage>. <pub-id pub-id-type="doi">10.1124/pr.111.005439</pub-id>.<pub-id pub-id-type="pmid">23406671</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name name-style="western"><surname>Di
+Martino</surname><given-names>R. M. C.</given-names></name>; <name name-style="western"><surname>Maxwell</surname><given-names>B. D.</given-names></name>; <name name-style="western"><surname>Pirali</surname><given-names>T.</given-names></name>
+<article-title>Deuterium in drug discovery:
+progress, opportunities and challenges</article-title>. <source>Nat.
+Rev. Drug Discovery</source>
+<year>2023</year>, <volume>22</volume> (<issue>7</issue>), <fpage>562</fpage>–<lpage>584</lpage>. <pub-id pub-id-type="doi">10.1038/s41573-023-00703-8</pub-id>.<pub-id pub-id-type="pmid">37277503</pub-id><pub-id pub-id-type="pmcid">PMC10241557</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><article-title>Serious adverse events attributed to nevirapine regimens
+for postexposure prophylaxis after HIV exposures--worldwide, 1997–2000</article-title>. <source>MMWR Morb. Mortal. Wkly Rep.</source>
+<year>2001</year>, <volume>49</volume> (<issue>51–52</issue>), <fpage>1153</fpage>–<lpage>1156</lpage>.<pub-id pub-id-type="pmid">11198946</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name name-style="western"><surname>Marinho</surname><given-names>A. T.</given-names></name>; <name name-style="western"><surname>Miranda</surname><given-names>J. P.</given-names></name>; <name name-style="western"><surname>Caixas</surname><given-names>U.</given-names></name>; <name name-style="western"><surname>Charneira</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Goncalves-Dias</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Marques</surname><given-names>M. M.</given-names></name>; <name name-style="western"><surname>Monteiro</surname><given-names>E. C.</given-names></name>; <name name-style="western"><surname>Antunes</surname><given-names>A. M. M.</given-names></name>; <name name-style="western"><surname>Pereira</surname><given-names>S. A.</given-names></name>
+<article-title>Singularities of nevirapine metabolism:
+from sex-dependent
+differences to idiosyncratic toxicity</article-title>. <source>Drug
+Metab. Rev.</source>
+<year>2019</year>, <volume>51</volume> (<issue>1</issue>), <fpage>76</fpage>–<lpage>90</lpage>. <pub-id pub-id-type="doi">10.1080/03602532.2019.1577891</pub-id>.<pub-id pub-id-type="pmid">30712401</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name name-style="western"><surname>Krzan</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Vianello</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Marsavelski</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Repic</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Zaksek</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Kotnik</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Fijan</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Mavri</surname><given-names>J.</given-names></name>
+<article-title>The Quantum Nature
+of Drug-Receptor Interactions: Deuteration Changes Binding Affinities
+for Histamine Receptor Ligands</article-title>. <source>PLoS One</source>
+<year>2016</year>, <volume>11</volume> (<issue>5</issue>), <elocation-id>e0154002</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0154002</pub-id>.<pub-id pub-id-type="pmid">27159606</pub-id><pub-id pub-id-type="pmcid">PMC4861267</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name name-style="western"><surname>Dekker</surname><given-names>S. J.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>Y.</given-names></name>; <name name-style="western"><surname>Vos</surname><given-names>J. C.</given-names></name>; <name name-style="western"><surname>Vermeulen</surname><given-names>N. P.</given-names></name>; <name name-style="western"><surname>Commandeur</surname><given-names>J. N.</given-names></name>
+<article-title>Different Reactive Metabolites of Nevirapine Require
+Distinct Glutathione S-Transferase Isoforms for Bioinactivation</article-title>. <source>Chem. Res. Toxicol.</source>
+<year>2016</year>, <volume>29</volume> (<issue>12</issue>), <fpage>2136</fpage>–<lpage>2144</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrestox.6b00250</pub-id>.<pub-id pub-id-type="pmid">27989146</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>
